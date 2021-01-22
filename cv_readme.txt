@@ -1,7 +1,8 @@
 1   cv 
 
 awesome  CV
-jbhuang0604/awesome-computer-vision
+
+https://github.com/jbhuang0604/awesome-computer-vision
 
 1.1  理论书籍
 
