@@ -46,10 +46,8 @@ zlotus/notes-linear-algebra
 http://immersivemath.com/ila/index.html
 
 凸优化：
-凸优化
-​
-www.zhihu.com
-图标
+https://www.zhihu.com/column/convex
+
 7  可视化与经典开源
 https://cloud.tencent.com/developer/article/1044493
 
