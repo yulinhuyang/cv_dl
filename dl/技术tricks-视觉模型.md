@@ -43,7 +43,8 @@ hrnet
 
 
 **3.2 检测：**
-*Two-stage*
+
+**Two-stage**
 
 Faster RCNN
 
@@ -51,7 +52,7 @@ Mask RCNN
 
 Mask score RCNN	
 
-*One-stage*
+**One-stage**
 
 SSD	
 
@@ -61,7 +62,8 @@ gaussion yolo
 
 RetinaNet
 
-*Anchor-Free*
+**Anchor-Free**
+
 FCOS
 
 NAS_FPN
@@ -69,7 +71,7 @@ NAS_FPN
 *FPN专题*	
 
 **mmdetetion补充**
-*RCNN改进*
+**RCNN改进**
 
 Cascade R-CNN
 
@@ -92,9 +94,12 @@ Foveabox
 PointRend
 
 
-不均衡问题
+**不均衡问题**
+
 OHEM	
-GHM	
+
+GHM
+
 Generalized Focal Loss	
 
 **算子提升**
@@ -226,6 +231,7 @@ MTCNN
 RetinaFace	
 		SSH检测模块
 		关键点回归Dense Regression Branch：2D 3D映射图卷积
+
 **人脸loss**		
 
 Triple loss：三元组
@@ -285,7 +291,7 @@ SimCLR
 
 **3.7  NLP、OCR**
 
-*NLP:*
+**NLP:**
 
 Transformer
 
@@ -293,7 +299,7 @@ Bert
 
 GPT
 
-*OCR:*
+**OCR:**
 
 textCNN
 
