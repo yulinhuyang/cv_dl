@@ -173,12 +173,17 @@ RetinaFace
 **人脸loss**		
 
 Triple loss：三元组
+
 Center loss:类别中心
 
 主要：权值和特征归一化
+
 Largin margin：强加分类，m倍角度
+
 SphereFace：归一化权值W
+
 Additive Margin Loss: 乘性变加，cos(theta) -m
+
 ArcFace：Cos(theta+m)
 
 
@@ -189,22 +194,31 @@ hourglass
 
 **3D人脸**		
 3DMM、Firstorder、Prnet、3DFFA
-3D人体		
+
+**3D人体**		
 SMPL、SMPL+D、PIFUHD
 
 **Reid**		
 Bnneck
+
 Gempooling
+
 Non_local
+
 Warmup learning
+
 Circle loss
 
 **Metric-learing**
 
 FastAP
+
 Marigin Triplet loss
+
 CrossBatch Memory
+
 MOCO
+
 SimCLR
 
 **image retrival**		
