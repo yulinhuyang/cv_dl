@@ -4,7 +4,7 @@ awesome  CV
 
 https://github.com/jbhuang0604/awesome-computer-vision
 
-**1.1  理论书籍
+**1.1  理论书籍**
 
 计算机视觉 算法与应用
 
