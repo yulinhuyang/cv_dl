@@ -20,6 +20,7 @@ API官方手册：TensorFlow、PyTorch、Numpy 、NNI
 3 模型
 
 **3.1 分类：**
+
 ResNet
 
 Resnext
@@ -67,7 +68,7 @@ NAS_FPN
 
 *FPN专题*	
 
-*mmdetetion补充*
+**mmdetetion补充**
 *RCNN改进*
 
 Cascade R-CNN
@@ -111,6 +112,7 @@ Weight Standardization
 Mixed Precision (FP16) Training	
 
 **新思考**
+
 Soft-NMS 
 
 Generalized Attention
@@ -126,6 +128,7 @@ DetectoRS
 Detr 	
 
 **3.3 跟踪**
+
 SiamFC
 
 SiamRPN	
@@ -202,6 +205,7 @@ conv instance
 
 
 **3.5 GAN**
+
 Pix2Pix(Pix2PixHD)
 
 CycleGAN(StarGAN)
@@ -213,6 +217,7 @@ Progressing GAN
 StyleGAN
 
 **3.6 人脸人体、  3D、Reid、度量、image retrival**
+
 MTCNN		
 		构建图像金字塔
 		P-Net 、R-Net、o-Net
@@ -238,7 +243,8 @@ Additive Margin Loss: 乘性变加，cos(theta) -m
 ArcFace：Cos(theta+m)
 
 
-hourglass		
+hourglass
+
 多个pipeline分别单独处理不同尺度下的信息，再网络的后面部分再组合这些特征
 中间输出heatmap
 中间监督
