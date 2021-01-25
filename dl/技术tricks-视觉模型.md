@@ -19,7 +19,7 @@ API官方手册：TensorFlow、PyTorch、Numpy 、NNI
 
 3 模型
 
-**分类：**
+**3.1 分类：**
 ResNet
 
 Resnext
@@ -41,7 +41,7 @@ efficientnet
 hrnet
 
 
-**检测：**
+**3.2 检测：**
 *Two-stage*
 
 Faster RCNN
@@ -96,72 +96,123 @@ OHEM
 GHM	
 Generalized Focal Loss	
 
-	算子提升
+**算子提升**
+
 DCNv2	
-RepPoints	
+
+RepPoints
+
 CARAFE	
-Group Normalization	
+
+Group Normalization
+
 Weight Standardization 	
+
 Mixed Precision (FP16) Training	
 
-	新思考
-Soft-NMS 	
-Generalized Attention	
+**新思考**
+Soft-NMS 
+
+Generalized Attention
+
 GCNet	
-InstaBoost	
+
+InstaBoost
+
 GRoIE	
-DetectoRS	
+
+DetectoRS
+
 Detr 	
 
-**跟踪**
-SiamFC		
-SiamRPN		
-SiamRPN++		
-SiamMask		
-SiamRCNN		
-SiamFC++		
-DIMP		
-FairMOT		
+**3.3 跟踪**
+SiamFC
+
+SiamRPN	
+
+SiamRPN++
+
+SiamMask
+
+SiamRCNN
+
+SiamFC++
+
+DIMP	
+
+FairMOT	
+
 CenterTrack		
 
-**分割**
-	语义分割
-FCN 	
+**3.4 分割**
+
+**语义分割**
+
+FCN 
+
 Unet	
+
 Segnet	
+
 Pspnet	
-Deeplabv3	
-Deeplabv3plus	
+
+Deeplabv3
+
+Deeplabv3plus
+
 PSANet 	
+
 UPerNet	
+
 NonLocal Net	
+
 EncNet	
-CCNet 	
-DANet  	
-GCNet	
-ANN	
+
+CCNet 
+
+DANet 
+
+GCNet
+
+ANN
+
 OCRNet	
-	实例分割
-FCIS	
+
+**实例分割**
+
+FCIS
+
 YOLACT-700	
-YOLACT++	
-PolarMask	
+
+YOLACT++
+
+PolarMask
+
 SOLO	
+
 SOLOV2	
-PointRender	
-BlendMask	
+
+PointRender
+
+BlendMask
+
 TensorMask	
+
 conv instance	
 
 
-**GAN**
+**3.5 GAN**
 Pix2Pix(Pix2PixHD)
+
 CycleGAN(StarGAN)
+
 SRGAN(ESRGAN)
+
 Progressing GAN
+
 StyleGAN
 
-**人脸人体、  3D、Reid、度量、image retrival**
+**3.6 人脸人体、  3D、Reid、度量、image retrival**
 MTCNN		
 		构建图像金字塔
 		P-Net 、R-Net、o-Net
