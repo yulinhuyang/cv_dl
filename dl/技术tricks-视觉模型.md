@@ -21,47 +21,77 @@ API官方手册：TensorFlow、PyTorch、Numpy 、NNI
 
 **分类：**
 ResNet
+
 Resnext
+
 Res2net
+
 Inception
+
 MobileNet
+
 Senet
+
 SqueezeNet
+
 ShuffleNet
+
 efficientnet
+
 hrnet
 
+
 **检测：**
-	Two-stage
-Faster RCNN	
-Mask RCNN	
+*Two-stage*
+
+Faster RCNN
+
+Mask RCNN
+
 Mask score RCNN	
 
-	One-stage
+*One-stage*
+
 SSD	
+
 Yolo	
-gaussion yolo	
-RetinaNet	
 
-	Anchor-Free
-FCOS	
-NAS_FPN	
-FPN专题	
+gaussion yolo
 
-	mmdetetion补充
-	RCNN改进
-Cascade R-CNN	
-Cascade Mask R-CNN	
-Foveabox 	
-Hybrid Task Cascade	
-Guided Anchoring	
-FreeAnchor	
-ATSS	
-FSAF	
-Foveabox 	
-PointRend	
+RetinaNet
 
-	不均衡问题
+*Anchor-Free*
+FCOS
+
+NAS_FPN
+
+*FPN专题*	
+
+*mmdetetion补充*
+*RCNN改进*
+
+Cascade R-CNN
+
+Cascade Mask R-CNN
+
+Foveabox 
+
+Hybrid Task Cascade
+
+Guided Anchoring
+
+FreeAnchor
+
+ATSS
+
+FSAF
+
+Foveabox
+
+PointRend
+
+
+不均衡问题
 OHEM	
 GHM	
 Generalized Focal Loss	
