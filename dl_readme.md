@@ -17,9 +17,7 @@ OCR参考：深度实践OCR：基于深度学习的文字识别
 API官方手册：TensorFlow、PyTorch、Numpy 、NNI
 
 
-**深度学习理论**
-
-深度学习DL、神经网络与深度学习ND、深入理解AutoML和AutoDL
+深度学习理论: 深度学习DL、神经网络与深度学习ND、深入理解AutoML和AutoDL
 
 百面内容：百面深度学习
 
