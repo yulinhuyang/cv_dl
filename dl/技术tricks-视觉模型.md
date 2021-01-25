@@ -249,13 +249,16 @@ hourglass
 中间输出heatmap
 中间监督
 
-**3D人脸**		
+**3D人脸**
+
 3DMM、Firstorder、Prnet、3DFFA
 
-**3D人体**		
+**3D人体**
+
 SMPL、SMPL+D、PIFUHD
 
-**Reid**		
+**Reid**
+
 Bnneck
 
 Gempooling
@@ -279,6 +282,29 @@ MOCO
 SimCLR
 
 **image retrival**		
+
+**3.7  NLP、OCR**
+
+*NLP*
+
+Transformer
+
+Bert
+
+GPT
+
+*OCR*
+
+textCNN
+
+CTC
+
+CRNN
+
+
+
+
+
 
 
 
