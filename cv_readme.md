@@ -27,7 +27,7 @@ https://blog.csdn.net/frozenspring/article/details/76695498
 计算机图形学 原理基础与实践  基础篇
 https://blog.csdn.net/qq_44857648/category_10395112.html
 
-**1.2  视觉编程
+**1.2  视觉编程**
 
 Learning OpenCV 3：
 https://github.com/oreillymedia/Learning-OpenCV-3_examples
@@ -42,7 +42,7 @@ https://zhuanlan.zhihu.com/c_159467704
 
 https://github.com/gaoxiang12/slambook
 
-**1.3   图形学、计算摄影学文章
+**1.3   图形学、计算摄影学文章**
 
 计算摄影学:
 
@@ -62,7 +62,7 @@ GAMES101-现代计算机图形学入门-闫令琪_哔哩哔哩 (゜-゜)つロ �
 历年sigraph
 https://kesen.realtimerendering.com/ 
 
-**1. 4 手册相关
+**1. 4 手册相关**
 
 opencv 官方教程中文版：
 http://woshicver.com/
