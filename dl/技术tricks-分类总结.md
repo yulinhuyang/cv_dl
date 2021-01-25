@@ -72,6 +72,7 @@ Gary：本科生晋升GM记录 & kaggle比赛进阶技巧分享：https://zhuanl
  
  
 **其他tricks**
+
 sticky：深度学习 cnn trick合集： https://zhuanlan.zhihu.com/p/137940586
  
 数据竞赛Tricks集锦：  www.jiqizhixin.com
