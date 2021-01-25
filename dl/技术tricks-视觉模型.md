@@ -285,7 +285,7 @@ SimCLR
 
 **3.7  NLP、OCR**
 
-*NLP*
+*NLP:*
 
 Transformer
 
@@ -293,7 +293,7 @@ Bert
 
 GPT
 
-*OCR*
+*OCR:*
 
 textCNN
 
