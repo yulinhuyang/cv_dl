@@ -82,4 +82,104 @@ InstaBoost
 GRoIE	
 DetectoRS	
 Detr 	
-检测tricks	
+
+**跟踪**
+SiamFC		
+SiamRPN		
+SiamRPN++		
+SiamMask		
+SiamRCNN		
+SiamFC++		
+DIMP		
+FairMOT		
+CenterTrack		
+
+**分割**
+	语义分割
+FCN 	
+Unet	
+Segnet	
+Pspnet	
+Deeplabv3	
+Deeplabv3plus	
+PSANet 	
+UPerNet	
+NonLocal Net	
+EncNet	
+CCNet 	
+DANet  	
+GCNet	
+ANN	
+OCRNet	
+	实例分割
+FCIS	
+YOLACT-700	
+YOLACT++	
+PolarMask	
+SOLO	
+SOLOV2	
+PointRender	
+BlendMask	
+TensorMask	
+conv instance	
+
+
+**GAN**
+Pix2Pix(Pix2PixHD)
+CycleGAN(StarGAN)
+SRGAN(ESRGAN)
+Progressing GAN
+StyleGAN
+
+**人脸人体、  3D、Reid、度量、image retrival**
+MTCNN		
+		构建图像金字塔
+		P-Net 、R-Net、o-Net
+		Soft-NMS:降低置信度
+		5个关键点
+RetinaFace	
+		SSH检测模块
+		关键点回归Dense Regression Branch：2D 3D映射图卷积
+**人脸loss**		
+
+Triple loss：三元组
+Center loss:类别中心
+
+主要：权值和特征归一化
+Largin margin：强加分类，m倍角度
+SphereFace：归一化权值W
+Additive Margin Loss: 乘性变加，cos(theta) -m
+ArcFace：Cos(theta+m)
+
+
+hourglass		
+多个pipeline分别单独处理不同尺度下的信息，再网络的后面部分再组合这些特征
+中间输出heatmap
+中间监督
+
+**3D人脸**		
+3DMM、Firstorder、Prnet、3DFFA
+3D人体		
+SMPL、SMPL+D、PIFUHD
+
+**Reid**		
+Bnneck
+Gempooling
+Non_local
+Warmup learning
+Circle loss
+
+**Metric-learing**
+
+FastAP
+Marigin Triplet loss
+CrossBatch Memory
+MOCO
+SimCLR
+
+**image retrival**		
+
+
+
+
+
