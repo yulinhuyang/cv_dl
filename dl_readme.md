@@ -58,7 +58,7 @@ NNI:nni.readthedocs.io
 https://github.com/huawei-noah/vega
 https://github.com/microsoft/MMdnn
 
-**5   其他总结**
+**5   其他总结: A Survey of**
 
 scutan90/DeepLearning-500-questions
 
