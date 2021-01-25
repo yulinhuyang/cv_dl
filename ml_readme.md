@@ -45,11 +45,11 @@ https://zhuanlan.zhihu.com/p/48320594
 
 Javen Chen's Blog
 
-强化学习导论 - 强化学习导论 0.0.1 文档
+强化学习导论 - 强化学习导论 0.0.1 文档：https://rl.qiwihui.com/zh_CN/latest/
 
 深度强化学习实践：
 
-PacktPublishing/Deep-Reinforcement-Learning-Hands-On
+PacktPublishing/Deep-Reinforcement-Learning-Hands-On： https://github.com/PacktPublishing/Deep-Reinforcement-Learning-Hands-On
 
 **5   Scikit-Learn 与 TensorFlow 机器学习实用指南**
 
@@ -60,7 +60,8 @@ https://github.com/apachecn/hands-on-ml-zh
 **6   ML数学基础**
 
 线性代数    Gilbert Strang：
-zlotus/notes-linear-algebra
+
+zlotus/notes-linear-algebra：https://github.com/zlotus/notes-linear-algebra
 
 http://immersivemath.com/ila/index.html
 
@@ -74,23 +75,24 @@ https://cloud.tencent.com/developer/article/1044493
 
 PRML:
 
-ctgk/PRML
-gerdm/prml
+ctgk/PRML：https://github.com/ctgk/PRML
+gerdm/prml：https://github.com/gerdm/prml
 
 ESL：
 
-empathy87/The-Elements-of-Statistical-Learning-Python-Notebooks
-szcf-weiya/ESL-CN
+empathy87/The-Elements-of-Statistical-Learning-Python-Notebooks： https://github.com/empathy87/The-Elements-of-Statistical-Learning-Python-Notebooks
+
+szcf-weiya/ESL-CN ：https://github.com/szcf-weiya/ESL-CN
 
 MLAPP:
-probml/pyprobml
+
+probml/pyprobml ： https://github.com/probml/pyprobml
 
 
 汇总项目：
 https://liushunyu.github.io/2188/08/08/%E7%BD%AE%E9%A1%B6-Collections/
-
-liushunyu.github.io
+ 
 
 **8  开源框架API 手册相关**
 
-sklearn教程中文版
+sklearn教程中文版：  https://sklearn.apachecn.org/
