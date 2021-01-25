@@ -88,6 +88,8 @@ MLAPP:
 
 probml/pyprobml ： https://github.com/probml/pyprobml
 
+分布式机器学习： https://zhuanlan.zhihu.com/p/129283650
+
 
 汇总项目：
 https://liushunyu.github.io/2188/08/08/%E7%BD%AE%E9%A1%B6-Collections/
