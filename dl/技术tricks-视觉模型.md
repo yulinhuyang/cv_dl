@@ -23,23 +23,23 @@ API官方手册：TensorFlow、PyTorch、Numpy 、NNI
 
 ResNet：  
 
-https://zhuanlan.zhihu.com/p/54289848
+[ResNet及其变种的结构梳理、有效性分析与代码解读](https://zhuanlan.zhihu.com/p/54289848)
 
-https://zhuanlan.zhihu.com/p/133805433
+[关于ResNeSt的点滴疑惑](https://zhuanlan.zhihu.com/p/133805433)
 
-Resnext:    https://zhuanlan.zhihu.com/p/51075096
+Resnext:   [ResNeXt详解](https://zhuanlan.zhihu.com/p/51075096)
 
 Res2net
 
-ResNeSt:    https://zhuanlan.zhihu.com/p/132655457
+ResNeSt:   [ResNeSt：Split-Attention Networks](https://zhuanlan.zhihu.com/p/132655457)
 
 Inception:   https://zhuanlan.zhihu.com/p/37505777
 
 MobileNet:   
 
-https://zhuanlan.zhihu.com/p/70703846
+[轻量级神经网络“巡礼”（二）—— MobileNet，从V1到V3](https://zhuanlan.zhihu.com/p/70703846)
 
-https://zhuanlan.zhihu.com/p/80177088
+[MobileNet 详解深度可分离卷积](https://zhuanlan.zhihu.com/p/80177088)
 
 Senet：  https://zhuanlan.zhihu.com/p/65459972
 
