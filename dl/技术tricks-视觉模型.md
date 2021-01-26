@@ -45,11 +45,11 @@ Senet：  https://zhuanlan.zhihu.com/p/65459972
 
 SqueezeNet：  https://zhuanlan.zhihu.com/p/31558773  
 
-ShuffleNet:  https://zhuanlan.zhihu.com/p/67009992
+ShuffleNet:  [轻量级神经网络“巡礼”（一）—— ShuffleNetV2](https://zhuanlan.zhihu.com/p/67009992)
 
-efficientnet： https://zhuanlan.zhihu.com/p/96773680
+efficientnet： [令人拍案叫绝的EfficientNet和EfficientDet](https://zhuanlan.zhihu.com/p/96773680)
 
-hrnet:  https://zhuanlan.zhihu.com/p/134253318
+hrnet:  [打通多个视觉任务的全能Backbone:HRNet](https://zhuanlan.zhihu.com/p/134253318)
 
 
 **3.2 检测：**
@@ -58,27 +58,31 @@ hrnet:  https://zhuanlan.zhihu.com/p/134253318
 
 Faster RCNN:  
 
-https://zhuanlan.zhihu.com/p/31426458
+[一文读懂Faster RCNN](https://zhuanlan.zhihu.com/p/31426458)
 
-https://zhuanlan.zhihu.com/p/145842317
+[捋一捋pytorch官方FasterRCNN代码](https://zhuanlan.zhihu.com/p/145842317)
 
 Mask RCNN:
 
-https://zhuanlan.zhihu.com/p/37998710
+[令人拍案称奇的Mask RCNN](https://zhuanlan.zhihu.com/p/37998710)
 
 Mask score RCNN:  https://zhuanlan.zhihu.com/p/111722103
 
 **One-stage**
 
-SSD： https://zhuanlan.zhihu.com/p/33544892
+SSD： [目标检测|SSD原理与实现](https://zhuanlan.zhihu.com/p/33544892)
 
 Yolo
 
-https://zhuanlan.zhihu.com/p/37850811
+[你真的读懂yolo了吗？](https://zhuanlan.zhihu.com/p/37850811)
 
-https://zhuanlan.zhihu.com/p/76802514
+[Yolo三部曲解读——Yolov3](https://zhuanlan.zhihu.com/p/76802514)
 
-https://zhuanlan.zhihu.com/p/74540100
+[Yolo三部曲解读——Yolov2](https://zhuanlan.zhihu.com/p/74540100)
+
+[深入浅出Yolo系列之Yolov3&Yolov4&Yolov5核心基础知识完整讲解](https://zhuanlan.zhihu.com/p/143747206)
+
+[深入浅出Yolo系列之Yolov5核心基础知识完整讲解](https://zhuanlan.zhihu.com/p/172121380)
 
 gaussion yolo
 
@@ -97,19 +101,19 @@ NAS_FPN：  https://zhuanlan.zhihu.com/p/63300940
 **mmdetetion补充**
 **RCNN改进**
 
-Cascade R-CNN：  https://zhuanlan.zhihu.com/p/42553957
+Cascade R-CNN：  [Cascade R-CNN 详细解读](https://zhuanlan.zhihu.com/p/42553957)
 
 Cascade Mask R-CNN：  
 
 Foveabox 
 
-Hybrid Task Cascade：  https://zhuanlan.zhihu.com/p/57629509
+Hybrid Task Cascade：  [实例分割的进阶三级跳：从 Mask R-CNN 到 Hybrid Task Cascade](https://zhuanlan.zhihu.com/p/57629509)
 
 Guided Anchoring
 
 FreeAnchor
 
-ATSS: https://zhuanlan.zhihu.com/p/115407465
+ATSS: [ATSS : 目标检测的自适应正负anchor选择](https://zhuanlan.zhihu.com/p/115407465)
 
 FSAF： https://zhuanlan.zhihu.com/p/58782838
 
@@ -120,7 +124,7 @@ PointRend： https://zhuanlan.zhihu.com/p/98351269
 
 **不均衡问题**
 
-OHEM: https://zhuanlan.zhihu.com/p/78837273	
+OHEM: [Hard Negative Mining/OHEM 你真的知道二者的区别吗？](https://zhuanlan.zhihu.com/p/78837273)	
 
 GHM：  https://zhuanlan.zhihu.com/p/80594704
 
@@ -150,7 +154,7 @@ https://zhuanlan.zhihu.com/p/41046620
 
 Generalized Attention：
 
-https://zhuanlan.zhihu.com/p/269751265
+
 
 GCNet	
 
@@ -179,7 +183,7 @@ SiamFC++
 
 DIMP	
 
-FairMOT：  https://zhuanlan.zhihu.com/p/126558285	
+FairMOT：  [MOT开源实时新SOTA | FairMOT](https://zhuanlan.zhihu.com/p/126558285)	
 
 CenterTrack：  https://zhuanlan.zhihu.com/p/125395219		
 
@@ -193,9 +197,9 @@ CenterTrack：  https://zhuanlan.zhihu.com/p/125395219
 
 FCN： 
 
-https://zhuanlan.zhihu.com/p/30195134
+[全卷积网络 FCN 详解](https://zhuanlan.zhihu.com/p/30195134)
 
-https://zhuanlan.zhihu.com/p/31428783
+[图像语义分割入门+FCN/U-Net网络解析](https://zhuanlan.zhihu.com/p/31428783)
 
 Unet	
 
@@ -205,7 +209,7 @@ Pspnet：
 
 Deeplabv3: [DeepLab 语义分割模型 v1、v2、v3、v3+ 概要（附 Pytorch 实现）](https://zhuanlan.zhihu.com/p/68531147)
 
-Deeplabv3plus:   https://zhuanlan.zhihu.com/p/62261970
+Deeplabv3plus:   [语义分割模型之DeepLabv3+](https://zhuanlan.zhihu.com/p/62261970)
 
 PSANet 	
 
@@ -213,9 +217,9 @@ UPerNet: https://zhuanlan.zhihu.com/p/42982922
 
 NonLocal Net：   
 
-https://zhuanlan.zhihu.com/p/64988633
+[GCNet：当Non-local遇见SENet](https://zhuanlan.zhihu.com/p/64988633)
 
-https://zhuanlan.zhihu.com/p/77834369
+[语义分割中的Attention和低秩重建](https://zhuanlan.zhihu.com/p/77834369)
 
 EncNet	
 
@@ -241,18 +245,17 @@ https://zhuanlan.zhihu.com/p/27500215
 
 YOLACT-700	
 
-YOLACT++： https://zhuanlan.zhihu.com/p/97684893
+YOLACT++： [YOLACT++：更强的实时实例分割网络，可达33.5 FPS/34.1mAP](https://zhuanlan.zhihu.com/p/97684893)
 
-PolarMask：  https://zhuanlan.zhihu.com/p/84890413
+PolarMask： [PolarMask: 一阶段实例分割新思路](https://zhuanlan.zhihu.com/p/84890413)
 
-SOLO：  https://www.zhihu.com/question/360594484/answer/936591301
+SOLO：  [看待SOLO: Segmenting Objects by Locations，是实例分割方向吗？](https://www.zhihu.com/question/360594484/answer/936591301)
 
 SOLOV2：
 
-https://zhuanlan.zhihu.com/p/120263670
+[SOLOv2: Dynamic, Faster and Stronger](https://zhuanlan.zhihu.com/p/120263670)
 
-PointRend  [何恺明团队新作PointRend：并非神作，但的确很有意义
-](https://zhuanlan.zhihu.com/p/98351269)
+PointRend  [何恺明团队新作PointRend：并非神作，但的确很有意义](https://zhuanlan.zhihu.com/p/98351269)
 
 https://zhuanlan.zhihu.com/p/98508347
 
@@ -372,25 +375,27 @@ CrossBatch Memory
 
 MOCO
 
-https://zhuanlan.zhihu.com/p/334732028
+[一文梳理无监督对比学习（MoCo/SimCLR/SwAV/BYOL/SimSiam](https://zhuanlan.zhihu.com/p/334732028)
 
 SimCLR
 
 **image retrival**
 
-https://zhuanlan.zhihu.com/p/46735159
+[基于内容的图像检索技术：从特征到检索](https://zhuanlan.zhihu.com/p/46735159)
 
 **3.7  NLP、OCR**
 
 **NLP:**
 
-https://zhuanlan.zhihu.com/p/43493999
+[NLP中的Attention原理和源码解析](https://zhuanlan.zhihu.com/p/43493999)
 
-https://zhuanlan.zhihu.com/p/50444885
+[NLP分词算法深度综述](https://zhuanlan.zhihu.com/p/50444885)
 
 Transformer：
 
 [【NLP】Transformer模型原理详解](https://zhuanlan.zhihu.com/p/44121378)
+
+[谷歌大改Transformer注意力，速度、内存利用率都提上去了](https://zhuanlan.zhihu.com/p/269751265)
 
 Bert
 
@@ -409,11 +414,11 @@ https://zhuanlan.zhihu.com/p/77634533
 
 CTC：
 
-https://zhuanlan.zhihu.com/p/43534801
+[一文读懂CRNN+CTC文字识别](https://zhuanlan.zhihu.com/p/43534801)
 
 CRNN：
 
-https://zhuanlan.zhihu.com/p/71506131
+[理解文本识别网络CRNN](https://zhuanlan.zhihu.com/p/71506131)
 
 
 
