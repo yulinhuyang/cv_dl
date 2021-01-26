@@ -86,6 +86,8 @@ RetinaNet：  https://zhuanlan.zhihu.com/p/133317452
 
 **Anchor-Free**
 
+https://zhuanlan.zhihu.com/p/62103812
+
 FCOS：  https://zhuanlan.zhihu.com/p/62869137
 
 NAS_FPN：  https://zhuanlan.zhihu.com/p/63300940
@@ -101,42 +103,42 @@ Cascade Mask R-CNN：
 
 Foveabox 
 
-Hybrid Task Cascade
+Hybrid Task Cascade：  https://zhuanlan.zhihu.com/p/57629509
 
 Guided Anchoring
 
 FreeAnchor
 
-ATSS
+ATSS: https://zhuanlan.zhihu.com/p/115407465
 
-FSAF
+FSAF： https://zhuanlan.zhihu.com/p/58782838
 
-Foveabox
+Foveabox： https://zhuanlan.zhihu.com/p/63190983
 
-PointRend
+PointRend： https://zhuanlan.zhihu.com/p/98351269
 
 
 **不均衡问题**
 
-OHEM	
+OHEM: https://zhuanlan.zhihu.com/p/78837273	
 
-GHM
+GHM：  https://zhuanlan.zhihu.com/p/80594704
 
-Generalized Focal Loss	
+Generalized Focal Loss：  https://zhuanlan.zhihu.com/p/147691786	
 
 **算子提升**
 
-DCNv2	
+DCNv2： 	https://zhuanlan.zhihu.com/p/180075757
 
-RepPoints
+RepPoints： https://zhuanlan.zhihu.com/p/64522910
 
-CARAFE	
+CARAFE：	https://zhuanlan.zhihu.com/p/76063768
 
 Group Normalization
 
 Weight Standardization 	
 
-Mixed Precision (FP16) Training	
+Mixed Precision (FP16) Training： https://zhuanlan.zhihu.com/p/84219777
 
 **新思考**
 
@@ -194,7 +196,11 @@ PSANet
 
 UPerNet	
 
-NonLocal Net：   https://zhuanlan.zhihu.com/p/64988633
+NonLocal Net：   
+
+https://zhuanlan.zhihu.com/p/64988633
+
+https://zhuanlan.zhihu.com/p/77834369
 
 EncNet	
 
