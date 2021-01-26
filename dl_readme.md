@@ -115,3 +115,5 @@ Image Segmentation Using Deep Learning: A Survey
 A Survey on Generative Adversarial Networks: Variants, Applications, and Training
 
 视觉 transformer综述： https://blog.csdn.net/KANG157/article/details/111771262
+
+Visual place recognition: A survey from deep learning perspective 
