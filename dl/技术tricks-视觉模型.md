@@ -41,44 +41,56 @@ https://zhuanlan.zhihu.com/p/70703846
 
 https://zhuanlan.zhihu.com/p/80177088
 
-Senet
+Senet：  https://zhuanlan.zhihu.com/p/65459972
 
-SqueezeNet
+SqueezeNet：  https://zhuanlan.zhihu.com/p/31558773  
 
 ShuffleNet:  https://zhuanlan.zhihu.com/p/67009992
 
-efficientnet
+efficientnet： https://zhuanlan.zhihu.com/p/96773680
 
-hrnet
+hrnet:  https://zhuanlan.zhihu.com/p/134253318
 
 
 **3.2 检测：**
 
 **Two-stage**
 
-Faster RCNN
+Faster RCNN:  
 
-Mask RCNN
+https://zhuanlan.zhihu.com/p/31426458
 
-Mask score RCNN	
+https://zhuanlan.zhihu.com/p/145842317
+
+Mask RCNN:
+
+https://zhuanlan.zhihu.com/p/37998710
+
+Mask score RCNN:  https://zhuanlan.zhihu.com/p/111722103
 
 **One-stage**
 
-SSD	
+SSD： https://zhuanlan.zhihu.com/p/33544892
 
-Yolo	
+Yolo
+
+https://zhuanlan.zhihu.com/p/37850811
+
+https://zhuanlan.zhihu.com/p/76802514
+
+https://zhuanlan.zhihu.com/p/74540100
 
 gaussion yolo
 
-RetinaNet
+RetinaNet：  https://zhuanlan.zhihu.com/p/133317452
 
 **Anchor-Free**
 
-FCOS
+FCOS：  https://zhuanlan.zhihu.com/p/62869137
 
-NAS_FPN
+NAS_FPN：  https://zhuanlan.zhihu.com/p/63300940
 
-*FPN专题*	
+*FPN专题*	 ： https://zhuanlan.zhihu.com/p/148738276
 
 **mmdetetion补充**
 **RCNN改进**
@@ -182,7 +194,7 @@ PSANet
 
 UPerNet	
 
-NonLocal Net	
+NonLocal Net：   https://zhuanlan.zhihu.com/p/64988633
 
 EncNet	
 
