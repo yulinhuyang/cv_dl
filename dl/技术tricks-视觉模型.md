@@ -217,8 +217,7 @@ https://zhuanlan.zhihu.com/p/77834369
 
 EncNet	
 
-CCNet: [CCNet--于"阡陌交通"处超越恺明Non-local
-Lingyun Zeng](https://zhuanlan.zhihu.com/p/51393573)
+CCNet: [CCNet--于"阡陌交通"处超越恺明Non-local](https://zhuanlan.zhihu.com/p/51393573)
 
 DANet 
 
@@ -267,15 +266,15 @@ conv instance
 
 **3.5 GAN**
 
-Pix2Pix(Pix2PixHD)
+Pix2Pix(Pix2PixHD): [图像翻译三部曲：pix2pix, pix2pixHD, vid2vid](https://zhuanlan.zhihu.com/p/56808180)
 
 CycleGAN(StarGAN)
 
-SRGAN(ESRGAN)
+SRGAN(ESRGAN): 
 
-Progressing GAN
+Progressing GAN: https://zhuanlan.zhihu.com/p/30532830
 
-StyleGAN
+StyleGAN:  https://zhuanlan.zhihu.com/p/263554045
 
 **3.6 人脸人体、  3D、Reid、度量、image retrival**
 
