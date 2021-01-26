@@ -278,16 +278,18 @@ StyleGAN:  https://zhuanlan.zhihu.com/p/263554045
 
 **3.6 人脸人体、  3D、Reid、度量、image retrival**
 
-MTCNN		
+MTCNN：		
 		构建图像金字塔
 		P-Net 、R-Net、o-Net
 		Soft-NMS:降低置信度
 		5个关键点
 		
 		
-RetinaFace	
-		SSH检测模块
-		关键点回归Dense Regression Branch：2D 3D映射图卷积
+RetinaFace：   https://zhuanlan.zhihu.com/p/103005911
+
+	SSH检测模块
+	关键点回归Dense Regression Branch：2D 3D映射图卷积
+
 
 **人脸loss**		
 
