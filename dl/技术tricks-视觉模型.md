@@ -189,6 +189,8 @@ CenterTrack：  https://zhuanlan.zhihu.com/p/125395219
 
 [语义分割中的深度学习方法全解：从FCN、SegNet到各代DeepLab](https://zhuanlan.zhihu.com/p/27794982)
 
+[语义分割论文简析：DeepLab、GCN、DANet、PSPNet、DenseASPP、PAN...](https://zhuanlan.zhihu.com/p/75415302)
+
 FCN： 
 
 https://zhuanlan.zhihu.com/p/30195134
@@ -201,7 +203,7 @@ Segnet： https://zhuanlan.zhihu.com/p/58888536
 
 Pspnet：  
 
-Deeplabv3
+Deeplabv3: [DeepLab 语义分割模型 v1、v2、v3、v3+ 概要（附 Pytorch 实现）](https://zhuanlan.zhihu.com/p/68531147)
 
 Deeplabv3plus:   https://zhuanlan.zhihu.com/p/62261970
 
@@ -249,7 +251,8 @@ SOLOV2：
 
 https://zhuanlan.zhihu.com/p/120263670
 
-PointRend
+PointRend  [何恺明团队新作PointRend：并非神作，但的确很有意义
+](https://zhuanlan.zhihu.com/p/98351269)
 
 https://zhuanlan.zhihu.com/p/98508347
 
@@ -292,7 +295,11 @@ RetinaFace：   https://zhuanlan.zhihu.com/p/103005911
 	关键点回归Dense Regression Branch：2D 3D映射图卷积
 
 
-**人脸loss**		
+**人脸loss**
+
+[人脸识别的LOSS（上）](https://zhuanlan.zhihu.com/p/34404607)
+[人脸识别的LOSS（下）](https://zhuanlan.zhihu.com/p/34436551)
+[人脸识别损失函数简介与Pytorch实现：ArcFace、SphereFace、CosFace](https://zhuanlan.zhihu.com/p/60747096)
 
 Triple loss：三元组
 
