@@ -21,21 +21,31 @@ API官方手册：TensorFlow、PyTorch、Numpy 、NNI
 
 **3.1 分类：**
 
-ResNet： https://zhuanlan.zhihu.com/p/54289848
+ResNet：  
 
-Resnext
+https://zhuanlan.zhihu.com/p/54289848
+
+https://zhuanlan.zhihu.com/p/133805433
+
+Resnext:    https://zhuanlan.zhihu.com/p/51075096
 
 Res2net
 
-Inception
+ResNeSt:    https://zhuanlan.zhihu.com/p/132655457
 
-MobileNet
+Inception:   https://zhuanlan.zhihu.com/p/37505777
+
+MobileNet:   
+
+https://zhuanlan.zhihu.com/p/70703846
+
+https://zhuanlan.zhihu.com/p/80177088
 
 Senet
 
 SqueezeNet
 
-ShuffleNet
+ShuffleNet:  https://zhuanlan.zhihu.com/p/67009992
 
 efficientnet
 
