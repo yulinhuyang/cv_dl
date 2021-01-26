@@ -134,17 +134,23 @@ RepPoints： https://zhuanlan.zhihu.com/p/64522910
 
 CARAFE：	https://zhuanlan.zhihu.com/p/76063768
 
-Group Normalization
+Group Normalization： https://zhuanlan.zhihu.com/p/35005794
 
-Weight Standardization 	
+Weight Standardization： https://zhuanlan.zhihu.com/p/61783291	
 
 Mixed Precision (FP16) Training： https://zhuanlan.zhihu.com/p/84219777
 
 **新思考**
 
-Soft-NMS 
+Soft-NMS：
 
-Generalized Attention
+https://zhuanlan.zhihu.com/p/157900024
+
+https://zhuanlan.zhihu.com/p/41046620
+
+Generalized Attention：
+
+https://zhuanlan.zhihu.com/p/269751265
 
 GCNet	
 
