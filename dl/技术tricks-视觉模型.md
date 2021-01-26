@@ -278,12 +278,13 @@ StyleGAN:  https://zhuanlan.zhihu.com/p/263554045
 
 **3.6 人脸人体、  3D、Reid、度量、image retrival**
 
-MTCNN：		
-		构建图像金字塔
-		P-Net 、R-Net、o-Net
-		Soft-NMS:降低置信度
-		5个关键点
-		
+MTCNN：	
+
+	构建图像金字塔
+	P-Net 、R-Net、o-Net
+	Soft-NMS:降低置信度
+	5个关键点
+
 		
 RetinaFace：   https://zhuanlan.zhihu.com/p/103005911
 
@@ -310,17 +311,27 @@ ArcFace：Cos(theta+m)
 
 hourglass
 
-多个pipeline分别单独处理不同尺度下的信息，再网络的后面部分再组合这些特征
-中间输出heatmap
-中间监督
+	多个pipeline分别单独处理不同尺度下的信息，再网络的后面部分再组合这些特征
+	中间输出heatmap
+	中间监督
 
 **3D人脸**
 
-3DMM、Firstorder、Prnet、3DFFA
+3DMM
+
+Firstorder
+
+Prnet
+
+3DFFA
 
 **3D人体**
 
-SMPL、SMPL+D、PIFUHD
+SMPL
+
+SMPL+D
+
+PIFUHD
 
 **Reid**
 
