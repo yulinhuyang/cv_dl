@@ -118,9 +118,7 @@ A Survey on Generative Adversarial Networks: Variants, Applications, and Trainin
 
 Visual place recognition: A survey from deep learning perspective 
 
-Bag of Tricks for Image Classification with Convolution Neural Networks
-
-https://zhuanlan.zhihu.com/p/66393448
+Bag of Tricks for Image Classification with Convolution Neural Networks:    https://zhuanlan.zhihu.com/p/66393448
 
 
 
