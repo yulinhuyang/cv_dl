@@ -164,15 +164,14 @@ Detr
 
 **3.3 跟踪**
 
-[我对Siamese网络的一点思考（SiamMask）](https://zhuanlan.zhihu.com/p/58154634)
 
-SiamFC
+SiamFC：  https://zhuanlan.zhihu.com/p/66757733
 
 SiamRPN	
 
-SiamRPN++
+SiamRPN++： [视觉目标跟踪之SiamRPN++](https://zhuanlan.zhihu.com/p/56254712)
 
-SiamMask
+SiamMask: [我对Siamese网络的一点思考（SiamMask）](https://zhuanlan.zhihu.com/p/58154634)
 
 SiamRCNN
 
@@ -180,29 +179,35 @@ SiamFC++
 
 DIMP	
 
-FairMOT	
+FairMOT：  https://zhuanlan.zhihu.com/p/126558285	
 
-CenterTrack		
+CenterTrack：  https://zhuanlan.zhihu.com/p/125395219		
 
 **3.4 分割**
 
 **语义分割**
 
-FCN 
+[语义分割中的深度学习方法全解：从FCN、SegNet到各代DeepLab](https://zhuanlan.zhihu.com/p/27794982)
+
+FCN： 
+
+https://zhuanlan.zhihu.com/p/30195134
+
+https://zhuanlan.zhihu.com/p/31428783
 
 Unet	
 
-Segnet	
+Segnet： https://zhuanlan.zhihu.com/p/58888536
 
-Pspnet	
+Pspnet：  
 
 Deeplabv3
 
-Deeplabv3plus
+Deeplabv3plus:   https://zhuanlan.zhihu.com/p/62261970
 
 PSANet 	
 
-UPerNet	
+UPerNet: https://zhuanlan.zhihu.com/p/42982922
 
 NonLocal Net：   
 
@@ -212,7 +217,8 @@ https://zhuanlan.zhihu.com/p/77834369
 
 EncNet	
 
-CCNet 
+CCNet: [CCNet--于"阡陌交通"处超越恺明Non-local
+Lingyun Zeng](https://zhuanlan.zhihu.com/p/51393573)
 
 DANet 
 
@@ -224,23 +230,37 @@ OCRNet
 
 **实例分割**
 
-FCIS
+[实例分割最新最全面综述：从Mask R-CNN到BlendMask](https://zhuanlan.zhihu.com/p/110132002)
+
+[【进展综述】单阶段实例分割（Single Stage Instance Segmentation）](https://zhuanlan.zhihu.com/p/102231853)
+
+FCIS: 
+
+https://zhuanlan.zhihu.com/p/27500215
 
 YOLACT-700	
 
-YOLACT++
+YOLACT++： https://zhuanlan.zhihu.com/p/97684893
 
-PolarMask
+PolarMask：  https://zhuanlan.zhihu.com/p/84890413
 
-SOLO	
+SOLO：  https://www.zhihu.com/question/360594484/answer/936591301
 
-SOLOV2	
+SOLOV2：
 
-PointRender
+https://zhuanlan.zhihu.com/p/120263670
+
+PointRend
+
+https://zhuanlan.zhihu.com/p/98508347
 
 BlendMask
 
-TensorMask	
+https://zhuanlan.zhihu.com/p/103256935
+
+TensorMask
+
+https://zhuanlan.zhihu.com/p/60984659
 
 conv instance	
 
@@ -354,7 +374,9 @@ GPT
 
 **OCR:**
 
-textCNN
+textCNN:
+
+https://zhuanlan.zhihu.com/p/77634533
 
 CTC：
 
