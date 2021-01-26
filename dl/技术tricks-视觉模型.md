@@ -298,8 +298,11 @@ RetinaFace：   https://zhuanlan.zhihu.com/p/103005911
 **人脸loss**
 
 [人脸识别的LOSS（上）](https://zhuanlan.zhihu.com/p/34404607)
+
 [人脸识别的LOSS（下）](https://zhuanlan.zhihu.com/p/34436551)
+
 [人脸识别损失函数简介与Pytorch实现：ArcFace、SphereFace、CosFace](https://zhuanlan.zhihu.com/p/60747096)
+
 
 Triple loss：三元组
 
