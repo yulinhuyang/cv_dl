@@ -21,7 +21,7 @@ API官方手册：TensorFlow、PyTorch、Numpy 、NNI
 
 **3.1 分类：**
 
-ResNet
+ResNet： https://zhuanlan.zhihu.com/p/54289848
 
 Resnext
 
