@@ -158,7 +158,7 @@ InstaBoost
 
 GRoIE	
 
-DetectoRS
+DetectoRS: [54.7 AP！最强的目标检测网络：DetectoRS（已开源）](https://zhuanlan.zhihu.com/p/145897444)
 
 Detr 	
 
@@ -256,11 +256,11 @@ PointRend  [何恺明团队新作PointRend：并非神作，但的确很有意�
 
 https://zhuanlan.zhihu.com/p/98508347
 
-BlendMask
+BlendMask:
 
 https://zhuanlan.zhihu.com/p/103256935
 
-TensorMask
+TensorMask:
 
 https://zhuanlan.zhihu.com/p/60984659
 
@@ -271,9 +271,9 @@ conv instance
 
 Pix2Pix(Pix2PixHD): [图像翻译三部曲：pix2pix, pix2pixHD, vid2vid](https://zhuanlan.zhihu.com/p/56808180)
 
-CycleGAN(StarGAN)
+CycleGAN(StarGAN):  [CycleGAN的原理与实验详解]  https://zhuanlan.zhihu.com/p/28342644
 
-SRGAN(ESRGAN): 
+SRGAN(ESRGAN): [SRGAN With WGAN，让超分辨率算法训练更稳定](https://zhuanlan.zhihu.com/p/37009085)
 
 Progressing GAN: https://zhuanlan.zhihu.com/p/30532830
 
@@ -327,7 +327,12 @@ hourglass
 
 **3D人脸**
 
+[人脸重建速览，从3DMM到表情驱动动画](https://zhuanlan.zhihu.com/p/58631750)
+
+
 3DMM
+
+[【技术综述】基于3DMM的三维人脸重建技术总结](https://zhuanlan.zhihu.com/p/161828142)
 
 Firstorder
 
@@ -385,13 +390,13 @@ https://zhuanlan.zhihu.com/p/50444885
 
 Transformer：
 
-https://zhuanlan.zhihu.com/p/44121378
+[【NLP】Transformer模型原理详解](https://zhuanlan.zhihu.com/p/44121378)
 
 Bert
 
-https://zhuanlan.zhihu.com/p/46652512
+[【NLP】Google BERT模型原理详解](https://zhuanlan.zhihu.com/p/46652512)
 
-https://zhuanlan.zhihu.com/p/127869267
+[FastBERT：又快又稳的推理提速方法](https://zhuanlan.zhihu.com/p/127869267)
 
 GPT
 
@@ -408,7 +413,7 @@ https://zhuanlan.zhihu.com/p/43534801
 
 CRNN：
 
-
+https://zhuanlan.zhihu.com/p/71506131
 
 
 
