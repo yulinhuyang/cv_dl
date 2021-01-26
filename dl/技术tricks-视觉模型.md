@@ -164,6 +164,8 @@ Detr
 
 **3.3 跟踪**
 
+[我对Siamese网络的一点思考（SiamMask）](https://zhuanlan.zhihu.com/p/58154634)
+
 SiamFC
 
 SiamRPN	
