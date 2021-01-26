@@ -317,29 +317,50 @@ Marigin Triplet loss
 
 CrossBatch Memory
 
+**对比学习**
+
 MOCO
+
+https://zhuanlan.zhihu.com/p/334732028
 
 SimCLR
 
-**image retrival**		
+**image retrival**
+
+https://zhuanlan.zhihu.com/p/46735159
 
 **3.7  NLP、OCR**
 
 **NLP:**
 
-Transformer
+https://zhuanlan.zhihu.com/p/43493999
+
+https://zhuanlan.zhihu.com/p/50444885
+
+Transformer：
+
+https://zhuanlan.zhihu.com/p/44121378
 
 Bert
 
+https://zhuanlan.zhihu.com/p/46652512
+
+https://zhuanlan.zhihu.com/p/127869267
+
 GPT
+
 
 **OCR:**
 
 textCNN
 
-CTC
+CTC：
 
-CRNN
+https://zhuanlan.zhihu.com/p/43534801
+
+CRNN：
+
+
 
 
 
