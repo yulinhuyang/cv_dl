@@ -40,4 +40,8 @@ Amusi：亚马逊提出：目标检测训练秘籍（代码已开源）： https
 多卡、混合精度、MOCO（cross batch memory）
 
 Todd：PyTorch Parallel Training（单机多卡并行、混合精度、同步BN训练指南文档）
+
+论文总结： 
+[图像语义分割(Semantic segmentation) Survey](https://zhuanlan.zhihu.com/p/36801104)
+
  
