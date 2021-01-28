@@ -83,4 +83,4 @@ Bag of Tricks for Image Classification with Convolution Neural Networks:
 https://zhuanlan.zhihu.com/p/66393448
 
 
- 
+[imgaug学习笔记](https://blog.csdn.net/u012897374/article/details/80142744)
