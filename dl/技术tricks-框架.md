@@ -17,3 +17,5 @@
 
 
 np.where 使用取索引法
+
+np.expand_dims增加维度
