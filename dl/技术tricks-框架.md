@@ -12,6 +12,7 @@
 
 
 2 numpy 
+
 ["Stanford 231课程：Python Numpy Tutorial教程"](https://xuepro.github.io/2018/05/09/Python-Numpy-Tutorial/)
 
 
