@@ -69,7 +69,7 @@ tensorflow：
 
 tensorflow 官方教程中文版：  https://docs.pythontab.com/tensorflow
 
-Numpy:  https://www.numpy.org.cn/dev/
+Numpy:  https://www.numpy.org.cn/reference/routines/array-manipulation.html
 
 **4  AutoML**
 
