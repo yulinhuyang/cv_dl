@@ -4,3 +4,5 @@
 
 
 [pytorch parallel相关](https://pytorch.org/tutorials/beginner/former_torchies/parallelism_tutorial.html)
+
+[Pytorch并行计算：nn.parallel.replicate, scatter, gather, parallel_apply](https://www.cnblogs.com/marsggbo/p/11534141.html)
