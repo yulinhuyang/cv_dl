@@ -69,6 +69,8 @@ tensorflow：
 
 tensorflow 官方教程中文版：  https://docs.pythontab.com/tensorflow
 
+Numpy:  https://www.numpy.org.cn/dev/
+
 **4  AutoML**
 
 https://github.com/hibayesian/awesome-automl-papers
