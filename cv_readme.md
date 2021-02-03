@@ -27,6 +27,8 @@ https://blog.csdn.net/frozenspring/article/details/76695498
 计算机图形学 原理基础与实践  基础篇
 https://blog.csdn.net/qq_44857648/category_10395112.html
 
+数字图像处理 冈萨雷斯
+
 **1.2  视觉编程**
 
 Learning OpenCV 3：
