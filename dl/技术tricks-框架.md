@@ -9,6 +9,7 @@
 
 [Pytorch并行计算：nn.parallel.replicate, scatter, gather, parallel_apply](https://www.cnblogs.com/marsggbo/p/11534141.html)
 
+[Pytorch中Tensor与各种图像格式的相互转化](https://cloud.tencent.com/developer/article/1144751)
 
 
 2 numpy 
