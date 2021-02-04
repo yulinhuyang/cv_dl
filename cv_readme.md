@@ -67,6 +67,9 @@ https://kesen.realtimerendering.com/
 **1. 4 手册相关**
 
 opencv 官方教程中文版：
+
+段力辉版：   https://www.cnblogs.com/Undo-self-blog/p/8423851.html
+
 http://woshicver.com/
  
 Pillow
