@@ -253,9 +253,51 @@ Outlier Detection（离群点检测）
 
 ## 3.2. 调整估计器的超参数
 
+网格追踪法–穷尽的网格搜索：GridSearchCV 
+
+随机参数优化：RandomizedSearchCV 
+
+参数搜索技巧：指定目标度量、为评估指定多个指标、并行机制、对故障的鲁棒性
+
+暴力参数搜索的替代方案：模型特定交叉验证、出袋估计
+
 ## 3.3. 模型评估: 量化预测的质量
 
+scoring 参数: 定义模型评估规则
+
+分类指标：
+
+混淆矩阵
+
+汉明损失：hamming_loss
+
+精准，召回和 F-measures
+
+多类和多标签分类
+
+Jaccard 相似系数 score
+
+Hinge loss
+
+Log 损失
+
+马修斯相关系数
+
+多标记混淆矩阵
+
+Receiver operating characteristic (ROC)
+
+零一损失：zero_one_loss
+
+多标签排名指标：排序损失
+
+回归指标：mean_squared_error, mean_absolute_error, explained_variance_score 和 r2_score
+
+聚类指标：
+
 ## 3.4. 模型持久化
+
+ pickle
 
 ## 3.5. 验证曲线: 绘制分数以评估模型
 
