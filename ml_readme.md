@@ -57,6 +57,10 @@ https://github.com/ageron/handson-ml
 
 https://github.com/apachecn/hands-on-ml-zh
 
+https://www.jianshu.com/p/9efbae6dbf8e
+
+https://www.jianshu.com/p/4a94798f7dcc
+
 **6   ML数学基础**
 
 线性代数    Gilbert Strang：
