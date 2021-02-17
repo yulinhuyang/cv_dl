@@ -12,19 +12,20 @@ josephmisiti/awesome-machine-learning
 面试：百面机器学习
 
 
+## 1 机器学习理论
 
-**1    西瓜书**
+### 1.1  西瓜书 
 
 https://github.com/Vay-keen/Machine-learning-learning-notes
 
 
-**2    统计学习方法笔记**
+### 1.2  统计学习方法笔记 
 
 https://github.com/SmirkCao/Lihang
 
 https://github.com/fengdu78/lihang-code
 
-**3    ISL**
+### 1.3   ISL 
 
 机器学习理论学习笔记 ： 
 
@@ -35,7 +36,7 @@ https://www.zhihu.com/column/c_1041377868856733696
  https://github.com/hardikkamboj/An-Introduction-to-Statistical-Learning
 
 
-**4  强化学习导论**
+### 1.4  强化学习导论 
 
 https://github.com/ShangtongZhang/reinforcement-learning-an-introduction
 
@@ -51,7 +52,7 @@ Javen Chen's Blog
 
 PacktPublishing/Deep-Reinforcement-Learning-Hands-On： https://github.com/PacktPublishing/Deep-Reinforcement-Learning-Hands-On
 
-**5   Scikit-Learn 与 TensorFlow 机器学习实用指南**
+### 1.5   Scikit-Learn 与 TensorFlow 机器学习实用指南 
 
 https://github.com/ageron/handson-ml
 
@@ -61,7 +62,7 @@ https://www.jianshu.com/p/9efbae6dbf8e
 
 https://www.jianshu.com/p/4a94798f7dcc
 
-**6   ML数学基础**
+### 1.6   ML数学基础 
 
 线性代数    Gilbert Strang：
 
@@ -69,11 +70,13 @@ zlotus/notes-linear-algebra：https://github.com/zlotus/notes-linear-algebra
 
 http://immersivemath.com/ila/index.html
 
+线性代数应该这样学：https://zhuanlan.zhihu.com/p/152079929
+
 凸优化：
 
 https://www.zhihu.com/column/convex
 
-**7  可视化与经典开源**
+### 1.7  可视化与经典开源 
 
 https://cloud.tencent.com/developer/article/1044493
 
@@ -92,13 +95,23 @@ MLAPP:
 
 probml/pyprobml ： https://github.com/probml/pyprobml
 
-分布式机器学习： https://zhuanlan.zhihu.com/p/129283650
-
 
 汇总项目：
 https://liushunyu.github.io/2188/08/08/%E7%BD%AE%E9%A1%B6-Collections/
  
 
-**8  开源框架API 手册相关**
+### 1.8  开源框架API 手册相关 
 
 sklearn教程中文版：  https://sklearn.apachecn.org/
+
+## 2  机器学习应用 
+
+分布式机器学习：
+
+https://zhuanlan.zhihu.com/p/129283650
+
+推荐系统实践： https://zhuanlan.zhihu.com/p/53130925
+
+深度学习推荐系统： https://www.zhihu.com/column/wangzhenotes
+
+阿里天池比赛赛题解析
