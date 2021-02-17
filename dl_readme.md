@@ -21,7 +21,7 @@ API官方手册：TensorFlow、PyTorch、Numpy 、NNI
 
 百面内容：百面深度学习
 
-**1  DL理论**
+## 1  DL理论 
 
 深度学习 花书笔记：
 
@@ -31,7 +31,7 @@ exacity/simplified-deeplearning：https://github.com/exacity/simplified-deeplear
 
 川陀学者：深度学习花书读书笔记目录：https://zhuanlan.zhihu.com/p/38431213
 
-**2  框架学习**
+## 2  框架学习 
 
 Python深度学习：
 
@@ -49,7 +49,7 @@ ShusenTang/Dive-into-DL-PyTorch：
 
 https://github.com/ShusenTang/Dive-into-DL-PyTorch
 
-**3  官方手册相关**
+## 3  官方手册相关 
 
 pytorch：
 
@@ -71,7 +71,7 @@ tensorflow 官方教程中文版：  https://docs.pythontab.com/tensorflow
 
 Numpy:  https://www.numpy.org.cn/reference/routines/array-manipulation.html
 
-**4  AutoML**
+## 4  AutoML 
 
 https://github.com/hibayesian/awesome-automl-papers
 
@@ -106,7 +106,7 @@ https://github.com/automl/auto-sklearn
 https://github.com/automl/Auto-PyTorch
 
 
-**5   其他总结: A Survey of**
+## 5   其他总结: A Survey of 
 
 scutan90/DeepLearning-500-questions
 
