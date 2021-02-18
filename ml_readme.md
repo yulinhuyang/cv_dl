@@ -104,6 +104,14 @@ https://liushunyu.github.io/2188/08/08/%E7%BD%AE%E9%A1%B6-Collections/
 
 sklearn教程中文版：  https://sklearn.apachecn.org/
 
+**AI learning**
+
+https://github.com/apachecn/ailearning
+
+**ApacheCN 数据科学和机器学习译文集**
+
+https://github.com/apachecn/apachecn-ds-zh
+
 ## 2  机器学习应用 
 
 分布式机器学习：
