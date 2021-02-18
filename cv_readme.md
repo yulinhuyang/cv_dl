@@ -75,6 +75,6 @@ http://woshicver.com/
 Pillow
 https://pillow-zh-cn.readthedocs.io/zh_CN/latest/
 
-ApacheCN 计算机视觉译文集：
+**ApacheCN 计算机视觉译文集**
 
 https://github.com/apachecn/apachecn-cv-zh
