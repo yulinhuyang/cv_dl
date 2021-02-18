@@ -21,6 +21,8 @@ ApacheCN 数据科学和机器学习译文集
 
 https://github.com/apachecn/apachecn-ds-zh
 
+https://github.com/apachecn/sklearn-doc-zh
+
 python 
 
 https://github.com/apachecn/apachecn-python-zh
