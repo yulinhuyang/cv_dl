@@ -71,6 +71,11 @@ tensorflow 官方教程中文版：  https://docs.pythontab.com/tensorflow
 
 Numpy:  https://www.numpy.org.cn/reference/routines/array-manipulation.html
 
+
+**ApacheCN 深度学习译文集: **
+
+https://github.com/apachecn/apachecn-dl-zh
+
 ## 4  AutoML 
 
 https://github.com/hibayesian/awesome-automl-papers
