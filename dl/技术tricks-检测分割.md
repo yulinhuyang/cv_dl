@@ -8,15 +8,18 @@ https://github.com/hoya012/deep_learning_object_detection
  
 **分割：**
 
+开源库：
+
 open-mmlab/mmsegmentation
 
 https://github.com/qubvel/segmentation_models.pytorch
  
 
+论文解读：
 
 [YOLOV4&5原理与源代码解析](http://bubuko.com/infodetail-3729210.html)
 
-
+[一张图梳理YOLOv4论文](https://www.cnblogs.com/pprp/p/12771430.html)
 
 
 **目标检测比赛tricks**
