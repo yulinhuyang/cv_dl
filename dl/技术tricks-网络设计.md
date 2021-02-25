@@ -9,3 +9,6 @@
 
 [cnn结构设计技巧-兼顾速度精度与工程实现](https://zhuanlan.zhihu.com/p/100609339)
 
+[CNN真的需要下采样（上采样）吗?(原创)](https://zhuanlan.zhihu.com/p/94477174)
+
+[语义分割之Large Kernel Matters](https://zhuanlan.zhihu.com/p/38055224)
