@@ -86,4 +86,4 @@ https://zhuanlan.zhihu.com/p/66393448
 [imgaug学习笔记](https://blog.csdn.net/u012897374/article/details/80142744)
 
 
-[cnn结构设计技巧-兼顾速度精度与工程实现](https://zhuanlan.zhihu.com/p/100609339)
+
