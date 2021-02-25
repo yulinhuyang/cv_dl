@@ -87,3 +87,35 @@ https://zhuanlan.zhihu.com/p/66393448
 
 
 
+**模型汇总**
+
+ResNet：  
+
+[ResNet及其变种的结构梳理、有效性分析与代码解读](https://zhuanlan.zhihu.com/p/54289848)
+
+[关于ResNeSt的点滴疑惑](https://zhuanlan.zhihu.com/p/133805433)
+
+Resnext:   [ResNeXt详解](https://zhuanlan.zhihu.com/p/51075096)
+
+Res2net
+
+ResNeSt:   [ResNeSt：Split-Attention Networks](https://zhuanlan.zhihu.com/p/132655457)
+
+Inception:   https://zhuanlan.zhihu.com/p/37505777
+
+MobileNet:   
+
+[轻量级神经网络“巡礼”（二）—— MobileNet，从V1到V3](https://zhuanlan.zhihu.com/p/70703846)
+
+[MobileNet 详解深度可分离卷积](https://zhuanlan.zhihu.com/p/80177088)
+
+Senet：  https://zhuanlan.zhihu.com/p/65459972
+
+SqueezeNet：  https://zhuanlan.zhihu.com/p/31558773  
+
+ShuffleNet:  [轻量级神经网络“巡礼”（一）—— ShuffleNetV2](https://zhuanlan.zhihu.com/p/67009992)
+
+efficientnet： [令人拍案叫绝的EfficientNet和EfficientDet](https://zhuanlan.zhihu.com/p/96773680)
+
+hrnet:  [打通多个视觉任务的全能Backbone:HRNet](https://zhuanlan.zhihu.com/p/134253318)
+
