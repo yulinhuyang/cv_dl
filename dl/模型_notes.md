@@ -84,6 +84,101 @@ Inception v4: 修改了Inception的Stem ,添加了Reduction block
 
 #### 网络结构：
 
+**MobileNet V1：**
+
+卷积层： 首先使用3×3的深度卷积提取特征，接着是一个BN层，随后是一个ReLU层，在之后就会逐点卷积，最后就是BN和ReLU。
+
+参数量：
+
+    标准卷积： Dk×Dk×M，一共有N个
+
+    深度卷积的卷积核尺寸Dk×Dk×M；逐点卷积的卷积核尺寸为1×1×M，一共有N个
+
+relu问题: 对低维度做ReLU运算，很容易造成信息的丢失。而在高维度进行ReLU运算的话，信息的丢失则会很少.将ReLU替换成线性激活函数
+
+Linear bottleneck: 最后的那个ReLU6换成Linear。
+
+Expansion layer：PW逐点卷积也就是1×1卷积可以用来升维和降维，那就可以在DW深度卷积之前使用PW卷积进行升维（升维倍数为t，t=6），再在一个更高维的空间中进行卷积操作来提取特征。
+
+**MobileNet V2：**
+
+Inverted residuals：引入shortcut结构，
+
+    ResNet 先降维 (0.25倍)、卷积、再升维。
+    MobileNetV2 则是 先升维 (6倍)、卷积、再降维。
+
+**MobileNet V3：**
+
+
+网络的架构基于NAS实现的MnasNet，资源受限的NAS（platform-aware NAS）与NetAdapt
+
+    资源受限的NAS，用于在计算和参数量受限的前提下搜索网络来优化各个块（block），所以称之为模块级搜索（Block-wise Search） 。
+
+    NetAdapt，用于对各个模块确定之后网络层的微调每一层的卷积核数量，所以称之为层级搜索（Layer-wise Search）
+
+引入基于squeeze and excitation结构的轻量级注意力模型(SE）
+
+新的激活函数h-swish(x)：Swish具备无上界有下界、平滑、非单调的特性，基于ReLU6设计近似函数逼近Swish。
+
+修改了MobileNetV2网络端部最后阶段：保留高维特征的前提下减小延时
+
+### Senet
+
+Squeeze-and-Excitation (SE)
+
+#### 网络结构
+
+    class SELayer(nn.Module):
+        def __init__(self, channel, reduction=16):
+            super(SELayer, self).__init__()
+            self.avg_pool = nn.AdaptiveAvgPool2d(1)
+            self.fc = nn.Sequential(
+                nn.Linear(channel, channel // reduction, bias=False),
+                nn.ReLU(inplace=True),
+                nn.Linear(channel // reduction, channel, bias=False),
+                nn.Sigmoid()
+            )
+
+        def forward(self, x):
+            b, c, _, _ = x.size()
+            y = self.avg_pool(x).view(b, c)
+            y = self.fc(y).view(b, c, 1, 1)
+            return x * y.expand_as(x)
+        
+Squeeze：将一个channel上整个空间特征编码为一个全局特征，采用global average pooling来实现       
+        
+Excitation操作：抓取channel之间的关系：sigmoid形式的gating机制 ---> 学习到的各个channel的激活值（sigmoid激活，值0~1）乘以U上的原始特征
+
+### SqueezeNet
+
+Fire module： squeeze（1x1） + expand（1x1 3X3）
+
+#### 网络结构
+  
+  
+
+
+（1）大量使用1x1卷积核替换3x3卷积核，因为参数可以降低9倍；
+
+（2）减少3x3卷积核的输入通道数（input channels），因为卷积核参数为：(number of input channels) * (number of filters) * 3 * 3.
+
+（3）延迟下采样（downsample），前面的layers可以有更大的特征图，有利于提升模型准确度。目前下采样一般采用strides>1的卷积层或者pool layer。
+
+#### 设计特点
+
+han网络设计总结：
+
+（1）模型压缩：对pre-trained的模型进行压缩，使其变成小模型，如采用网络剪枝和量化等手段；
+
+（2）CNN微观结构：对单个卷积层进行优化设计，如采用1x1的小卷积核，还有很多采用可分解卷积（factorized convolution）结构或者模块化的结构（blocks, modules）；
+
+（3）CNN宏观结构：网络架构层面上的优化设计，如网路深度（层数），还有像ResNet那样采用“短路”连接（bypass connection）；
+
+（4）设计空间：不同超参数、网络结构，优化器等的组合优化。
+
+han模型压缩：
+  
+
 
 
 
