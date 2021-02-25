@@ -49,6 +49,8 @@ Todd：PyTorch Parallel Training（单机多卡并行、混合精度、同步BN�
  
  ### 模型总结
  
+ #### 检测
+ 
  **Two-stage**
 
 Faster RCNN:  
@@ -161,7 +163,7 @@ DetectoRS: [54.7 AP！最强的目标检测网络：DetectoRS（已开源）](ht
 
 Detr 	
 
-**跟踪**
+#### 跟踪 
 
 
 SiamFC：  https://zhuanlan.zhihu.com/p/66757733
@@ -182,7 +184,7 @@ FairMOT：  [MOT开源实时新SOTA | FairMOT](https://zhuanlan.zhihu.com/p/1265
 
 CenterTrack：  https://zhuanlan.zhihu.com/p/125395219		
 
-**分割**
+## 分割 
 
 **语义分割**
 
