@@ -1,3 +1,4 @@
+### 开源代码
 
 **Reid 分类：**
  
@@ -61,6 +62,7 @@ https://github.com/XingangPan/IBN-Net/tree/master/ibnnet
 Gempooling
 
 
+### tricks
 
 **比赛 tricks：**
 
