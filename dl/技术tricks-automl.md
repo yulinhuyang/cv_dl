@@ -16,6 +16,7 @@ Dai Zhongxiang：贝叶斯优化/Bayesian Optimization：  https://zhuanlan.zhih
 
 镜镜詅痴：Rethinking the value of network pruning
 
+模型压缩总览：https://www.jianshu.com/p/e73851f32c9f
 
 **automl org相关**
 
