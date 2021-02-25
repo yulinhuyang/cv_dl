@@ -14,6 +14,11 @@ https://github.com/qubvel/segmentation_models.pytorch
  
 
 
+[YOLOV4&5原理与源代码解析](http://bubuko.com/infodetail-3729210.html)
+
+
+
+
 **目标检测比赛tricks**
 
 roger：目标检测中的Tricks：https://zhuanlan.zhihu.com/p/138855612
