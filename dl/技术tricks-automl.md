@@ -1,6 +1,8 @@
 
 **AutoML tricks总结:**
 
+CNN中各层计算量MACC和FLOPs的计算方式: https://blog.csdn.net/xunan003/article/details/95631022
+
 字节：走马观花AutoML： https://zhuanlan.zhihu.com/p/212512984
 
 AutoML: A Survey of the State-of-the-ArtAutoML: 
