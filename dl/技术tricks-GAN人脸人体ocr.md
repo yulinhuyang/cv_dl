@@ -1,9 +1,9 @@
 
 ### 开源代码
 
+https://github.com/deepinsight/insightface
 
-
-
+https://github.com/eriklindernoren/PyTorch-GAN
 
 
 ### 模型
@@ -21,7 +21,7 @@ Progressing GAN: https://zhuanlan.zhihu.com/p/30532830
 
 StyleGAN:  https://zhuanlan.zhihu.com/p/263554045
 
-**3.6 人脸人体、  3D、Reid、度量、image retrival**
+**人脸检测**
 
 MTCNN：	
 
@@ -122,7 +122,6 @@ SimCLR
 
 [基于内容的图像检索技术：从特征到检索](https://zhuanlan.zhihu.com/p/46735159)
 
-**3.7  NLP、OCR**
 
 **NLP:**
 
@@ -158,4 +157,8 @@ CTC：
 CRNN：
 
 [理解文本识别网络CRNN](https://zhuanlan.zhihu.com/p/71506131)
+
+### notes:
+
+
 
