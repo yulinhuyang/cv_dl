@@ -26,7 +26,9 @@ https://github.com/Swall0w/torchstat
 
 ["Stanford 231课程：Python Numpy Tutorial教程"](https://xuepro.github.io/2018/05/09/Python-Numpy-Tutorial/)
 
+### tensorRT
 
+[高性能深度学习支持引擎实战——TensorRT](https://zhuanlan.zhihu.com/p/35657027)
 
 
 ## notes:
