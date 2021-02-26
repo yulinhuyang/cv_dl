@@ -1,9 +1,16 @@
-### 开源代码
+## 开源代码
 
-**Reid 分类：**
+**分类**
+
+[open-mmlab/mmclassification](https://github.com/open-mmlab/mmclassification)
+
+**Reid **
  
-FastReID：目前最强悍的目标重识别开源库！
-https://github.com/JDAI-CV/fast-reid
+[FastReID：目前最强悍的目标重识别开源库](https://github.com/JDAI-CV/fast-reid)
+
+**pose**
+
+[open-mmlab/mmpose](https://github.com/open-mmlab/mmpose)
 
 **图像增强：**
 
@@ -56,13 +63,14 @@ https://github.com/hysts/pytorch_image_classification
 
 Resnest:
 https://github.com/zhanghang1989/ResNeSt/tree/master/resnest/torch
- IBN：
+
+IBN：
 https://github.com/XingangPan/IBN-Net/tree/master/ibnnet
 
 Gempooling
 
 
-### tricks
+## tricks
 
 **比赛 tricks：**
 
@@ -89,7 +97,7 @@ https://zhuanlan.zhihu.com/p/66393448
 
 
 
-### 模型汇总 
+## 模型汇总 
 
 ResNet：
 
@@ -122,14 +130,14 @@ efficientnet： [令人拍案叫绝的EfficientNet和EfficientDet](https://zhuan
 hrnet:  [打通多个视觉任务的全能Backbone:HRNet](https://zhuanlan.zhihu.com/p/134253318)
 
 
-### notes:
+## notes:
 
 
-####  ResNet：
+###  ResNet：
 
 构建恒等映射:解决网络退化问题
 
-##### 网络结构：
+#### 网络结构：
 
 
 
@@ -152,7 +160,7 @@ Bottleneck：使用了1x1卷积的bottleneck将计算量简化为原有的5.9%
 ResNet部分组件的顺序进行了调整：如果将ReLU放在原先的位置，那么残差块输出永远是非负的，这制约了模型的表达能力。ReLU移入了残差块内部。
 
 
-##### 设计特点：
+#### 设计特点：
 
 如果特征地图大小减半，滤波器的数量加倍以保持每层的时间复杂度
 
@@ -161,11 +169,11 @@ ResNet部分组件的顺序进行了调整：如果将ReLU放在原先的位置�
 最大池化与平均池化： 网络以平均池化层和softmax的1000路全连接层结束，实际上工程上一般用自适应全局平均池化 (Adaptive Global Average Pooling)，好处：一是节省计算资源，二是防止模型过拟合，提升泛化能力。更保险的操作，就是最大池化和平均池化都做，然后把两个张量拼
 
 
-####   Resnext
+###   Resnext
 
 ResNeXt：ResNet + Inception，split-transform-merge
 
-##### 网络结构：
+#### 网络结构：
 
 
 
@@ -173,15 +181,15 @@ ResNeXt的分支的拓扑结构是相同的，Inception V4需要人工设计
 
 ResNeXt是先进行1X1卷积然后执行单位加，Inception V4是先拼接再执行 1X1 卷积
 
-##### 设计特点：
+#### 设计特点：
 
 分组卷积： 介于普通卷积核深度可分离卷积的
 
-####  ResNeSt
+###  ResNeSt
 
 Split-Attention Networks，主要： Multi-path 和 Feature-map Attention思想
 
-##### 网络结构：
+#### 网络结构：
 
 
 
@@ -191,7 +199,7 @@ SE-Net： 通过自适应地重新校准通道特征响应来引入通道注意�
 
 SK-Net： 通过两个网络分支引入特征图注意力（feature-map attention）
 
-#### Inception
+### Inception
 
 Inception v1：多个filter size, 定位不同size的object
 
@@ -200,15 +208,15 @@ Inception v2:  5*5 filter换成了俩个3*3, 3*3 filter换成了1*3+3*1
 Inception v4: 修改了Inception的Stem ,添加了Reduction block
 
 
-##### 网络结构：
+#### 网络结构：
 
 
 
-#### MobileNet
+### MobileNet
 
 深度可分离卷积: 深度卷积 + 逐点卷积
 
-##### 网络结构：
+#### 网络结构：
 
 **MobileNet V1：**
 
@@ -248,11 +256,11 @@ Inverted residuals：引入shortcut结构，
 
 修改了MobileNetV2网络端部最后阶段：保留高维特征的前提下减小延时
 
-#### Senet
+### Senet
 
 Squeeze-and-Excitation (SE)
 
-##### 网络结构
+#### 网络结构
 
     class SELayer(nn.Module):
         def __init__(self, channel, reduction=16):
@@ -275,11 +283,11 @@ Squeeze：将一个channel上整个空间特征编码为一个全局特征，采
         
 Excitation操作：抓取channel之间的关系：sigmoid形式的gating机制 ---> 学习到的各个channel的激活值（sigmoid激活，值0~1）乘以U上的原始特征
 
-#### SqueezeNet
+### SqueezeNet
 
 Fire module： squeeze（1x1） + expand（1x1 3X3）
 
-##### 网络结构
+#### 网络结构
   
   
 
@@ -289,7 +297,7 @@ Fire module： squeeze（1x1） + expand（1x1 3X3）
 
 （3）延迟下采样（downsample），前面的layers可以有更大的特征图，有利于提升模型准确度。目前下采样一般采用strides>1的卷积层或者pool layer。
 
-##### 设计特点
+#### 设计特点
 
 han网络设计总结：
 
@@ -311,7 +319,7 @@ han模型压缩：
     
   量化：float32变成int8
 
-#### ShuffleNet
+### ShuffleNet
 
 shuffleNet主要拥有两个创新点：
 
@@ -320,7 +328,7 @@ shuffleNet主要拥有两个创新点：
 （2）channel shuffle
 
 
-##### 网络结构
+#### 网络结构
 
 
 FLOPS： 全大写，指每秒浮点运算次数，可以理解为计算的速度。是衡量硬件性能的一个指标。
@@ -338,7 +346,7 @@ v2改进： Channel split： 将c特征通道的输入被分为两支，分别�
 
 
 
-##### 设计特点
+#### 设计特点
 
 （1） 卷积层使用相同的输入输出通道数。
 
