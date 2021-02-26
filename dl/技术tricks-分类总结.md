@@ -111,7 +111,7 @@ ResNeXt：ResNet + Inception，split-transform-merge
 
 ResNeSt:   [ResNeSt：Split-Attention Networks](https://zhuanlan.zhihu.com/p/132655457)
 
-Inception:   https://zhuanlan.zhihu.com/p/37505777
+Inception:   [从Inception v1到Inception-ResNet，一文概览Inception家族的「奋斗史」](https://zhuanlan.zhihu.com/p/37505777)
 
 MobileNet:   
 
@@ -119,7 +119,7 @@ MobileNet:
 
 [MobileNet 详解深度可分离卷积](https://zhuanlan.zhihu.com/p/80177088)
 
-Senet：  https://zhuanlan.zhihu.com/p/65459972
+Senet：  [﻿最后一届ImageNet冠军模型：SENet](https://zhuanlan.zhihu.com/p/65459972)
 
 SqueezeNet：  https://zhuanlan.zhihu.com/p/31558773  
 
