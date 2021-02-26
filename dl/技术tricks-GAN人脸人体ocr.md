@@ -1,12 +1,20 @@
 
-### 开源代码
+## 开源代码
+
+**insightface**
 
 https://github.com/deepinsight/insightface
+
+**pose**
+
+[open-mmlab/mmpose](https://github.com/open-mmlab/mmpose)
+
+**GAN**
 
 https://github.com/eriklindernoren/PyTorch-GAN
 
 
-### 模型
+## 模型
 
 
 **GAN**
@@ -158,7 +166,7 @@ CRNN：
 
 [理解文本识别网络CRNN](https://zhuanlan.zhihu.com/p/71506131)
 
-### notes:
+## notes:
 
 
 
