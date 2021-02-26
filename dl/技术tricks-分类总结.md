@@ -96,6 +96,9 @@ https://zhuanlan.zhihu.com/p/66393448
 
 ## 模型汇总 
 
+[经典CNN结构简析：AlexNet、VGG、NIN、GoogLeNet、ResNet etc.](https://zhuanlan.zhihu.com/p/47391705)
+
+
 ResNet：
 
 [ResNet及其变种的结构梳理、有效性分析与代码解读](https://zhuanlan.zhihu.com/p/54289848)
