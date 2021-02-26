@@ -4,7 +4,7 @@
 
 [open-mmlab/mmclassification](https://github.com/open-mmlab/mmclassification)
 
-**Reid **
+**Reid**
  
 [FastReID：目前最强悍的目标重识别开源库](https://github.com/JDAI-CV/fast-reid)
 
