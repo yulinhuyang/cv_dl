@@ -105,13 +105,22 @@ ResNet：
 
 [关于ResNeSt的点滴疑惑](https://zhuanlan.zhihu.com/p/133805433)
 
+ResNeXt：
+
+ResNet + Inception，split-transform-merge
+
 [ResNeXt详解](https://zhuanlan.zhihu.com/p/51075096)
 
-ResNeXt：ResNet + Inception，split-transform-merge
 
-ResNeSt:   [ResNeSt：Split-Attention Networks](https://zhuanlan.zhihu.com/p/132655457)
+Res2Net: [Res2Net：新型backbone网络，超越ResNet](https://zhuanlan.zhihu.com/p/86331579)
 
-Inception:   [从Inception v1到Inception-ResNet，一文概览Inception家族的「奋斗史」](https://zhuanlan.zhihu.com/p/37505777)
+ResNeSt:  
+
+[ResNeSt：Split-Attention Networks](https://zhuanlan.zhihu.com/p/132655457)
+
+Inception:  
+
+[从Inception v1到Inception-ResNet，一文概览Inception家族的「奋斗史」](https://zhuanlan.zhihu.com/p/37505777)
 
 MobileNet:   
 
@@ -119,15 +128,25 @@ MobileNet:
 
 [MobileNet 详解深度可分离卷积](https://zhuanlan.zhihu.com/p/80177088)
 
-Senet：  [﻿最后一届ImageNet冠军模型：SENet](https://zhuanlan.zhihu.com/p/65459972)
+Senet：  
 
-SqueezeNet：  https://zhuanlan.zhihu.com/p/31558773  
+[最后一届ImageNet冠军模型：SENet](https://zhuanlan.zhihu.com/p/65459972)
 
-ShuffleNet:  [轻量级神经网络“巡礼”（一）—— ShuffleNetV2](https://zhuanlan.zhihu.com/p/67009992)
+SqueezeNet： 
 
-efficientnet： [令人拍案叫绝的EfficientNet和EfficientDet](https://zhuanlan.zhihu.com/p/96773680)
+https://zhuanlan.zhihu.com/p/31558773  
 
-hrnet:  [打通多个视觉任务的全能Backbone:HRNet](https://zhuanlan.zhihu.com/p/134253318)
+ShuffleNet: 
+
+[轻量级神经网络“巡礼”（一）—— ShuffleNetV2](https://zhuanlan.zhihu.com/p/67009992)
+
+efficientnet： 
+
+[令人拍案叫绝的EfficientNet和EfficientDet](https://zhuanlan.zhihu.com/p/96773680)
+
+hrnet:  
+
+[打通多个视觉任务的全能Backbone:HRNet](https://zhuanlan.zhihu.com/p/134253318)
 
 
 ## notes:
