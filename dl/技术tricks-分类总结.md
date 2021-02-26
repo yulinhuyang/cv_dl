@@ -8,9 +8,6 @@
  
 [FastReID：目前最强悍的目标重识别开源库](https://github.com/JDAI-CV/fast-reid)
 
-**pose**
-
-[open-mmlab/mmpose](https://github.com/open-mmlab/mmpose)
 
 **图像增强：**
 
