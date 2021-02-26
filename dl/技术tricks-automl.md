@@ -1,5 +1,21 @@
 
-**AutoML tricks总结:**
+## 开源代码
+
+
+  AutoML.org
+
+  automl/auto-sklearn
+
+  automl/Auto-PyTorch
+
+  automl/SMAC3
+
+  automl/HpBandSter
+
+  automl/RoBO
+
+
+## tricks总结
 
 CNN中各层计算量MACC和FLOPs的计算方式: https://blog.csdn.net/xunan003/article/details/95631022
 
@@ -20,16 +36,7 @@ Dai Zhongxiang：贝叶斯优化/Bayesian Optimization：  https://zhuanlan.zhih
 
 模型压缩总览：https://www.jianshu.com/p/e73851f32c9f
 
-**automl org相关**
 
-AutoML.org
+## notes:
 
-automl/auto-sklearn
 
-automl/Auto-PyTorch
-
-automl/SMAC3
-
-automl/HpBandSter
-
-automl/RoBO
