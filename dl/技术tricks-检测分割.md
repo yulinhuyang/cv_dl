@@ -202,7 +202,9 @@ FCN：
 
 Unet	
 
-Segnet： https://zhuanlan.zhihu.com/p/58888536
+Segnet： 
+
+[一文带你读懂 SegNet（语义分割）](https://zhuanlan.zhihu.com/p/58888536)
 
 Pspnet：  
 
