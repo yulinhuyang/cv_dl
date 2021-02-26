@@ -19,5 +19,6 @@
 
 [语义分割之Large Kernel Matters](https://zhuanlan.zhihu.com/p/38055224)
 
+[感受野计算器](https://fomoro.com/research/article/receptive-field-calculator)
 
 ### notes:
