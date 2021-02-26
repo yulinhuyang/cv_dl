@@ -14,7 +14,7 @@ https://github.com/deepinsight/insightface
 https://github.com/eriklindernoren/PyTorch-GAN
 
 
-## 模型
+## 模型总结
 
 
 **GAN**
