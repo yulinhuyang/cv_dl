@@ -9,11 +9,11 @@
 ##### 网络结构 
 
 
-<div align="center"> <img src="fastrcnn1.jpg" width="70%"/> </div><br>
+<div align="center"> <img src="../pics/fastrcnn1.jpg" width="70%"/> </div><br>
 
-<div align="center"> <img src="fastrcnn2.jpg" width="50%"/> </div><br>
+<div align="center"> <img src="../pics/fastrcnn2.jpg" width="50%"/> </div><br>
 
-<div align="center"> <img src="fastrcnn3.png" width="70%"/> </div><br>
+<div align="center"> <img src="../pics/fastrcnn3.png" width="70%"/> </div><br>
 
 **RPN**
 
@@ -33,18 +33,18 @@ RPN网络总结：
 
 **proposal**
 
-<div align="center"> <img src="fasterrcnn4.png" width="70%"/> </div><br>
+<div align="center"> <img src="../pics/fasterrcnn4.png" width="70%"/> </div><br>
 
-<div align="center"> <img src="fasterrcnn5.png" width="70%"/> </div><br>
+<div align="center"> <img src="../pics/fasterrcnn5.png" width="70%"/> </div><br>
 
-<div align="center"> <img src="fasterrcnn6.png" width="70%"/> </div><br>
+<div align="center"> <img src="../pics/fasterrcnn6.png" width="70%"/> </div><br>
 
 
 **RoI Pooling**
 
-<div align="center"> <img src="fasterrcnn7.png" width="50%"/> </div><br>
+<div align="center"> <img src="../pics/fasterrcnn7.png" width="50%"/> </div><br>
 
-<div align="center"> <img src="fasterrcnn8.png" width="70%"/> </div><br>
+<div align="center"> <img src="../pics/fasterrcnn8.png" width="70%"/> </div><br>
 
 
 #### Mask RCNN:
@@ -52,14 +52,14 @@ RPN网络总结：
 
 ##### 网络结构 
 
-<div align="center"> <img src="maskrcnn1.png" width="70%"/> </div><br>
+<div align="center"> <img src="../pics/maskrcnn1.png" width="70%"/> </div><br>
 
 <center class="half">
-     <img src="maskrcnn2.png" width="60%"/><img src="maskrcnn3.png" width="20%"/>
+     <img src="../pics/maskrcnn2.png" width="60%"/><img src="../pics/maskrcnn3.png" width="20%"/>
 </center>
 
 <center class="half">
-     <img src="maskrcnn4.png" width="50%"/><img src="maskrcnn5.png" width="30%"/>
+     <img src="../pics/maskrcnn4.png" width="50%"/><img src="../pics/maskrcnn5.png" width="30%"/>
 </center>
 
 
@@ -86,7 +86,7 @@ maskrcnn  = ResNet-FPN+Fast RCNN+Mask
 
 ##### 网络结构 
 
-<div align="center"> <img src="maskscorercnn1.png" width="70%"/> </div><br>
+<div align="center"> <img src="../pics/maskscorercnn1.png" width="70%"/> </div><br>
 
 
 MS RCNN和Mask Rcnn类似，只是在Mask Rcnn的基础上，增加了MaskIOU分支，整个网络是端到端的。
@@ -99,11 +99,11 @@ MS RCNN和Mask Rcnn类似，只是在Mask Rcnn的基础上，增加了MaskIOU分
 
 ##### 网络结构 
 
-<div align="center"> <img src="ssd1.png" width="70%"/> </div><br>
+<div align="center"> <img src="../pics/ssd1.png" width="70%"/> </div><br>
 
-<div align="center"> <img src="ssd2.png" width="70%"/> </div><br>
+<div align="center"> <img src="../pics/ssd2.png" width="70%"/> </div><br>
 
-<div align="center"> <img src="ssd3.png" width="30%"/> </div><br>
+<div align="center"> <img src="../pics/ssd3.png" width="30%"/> </div><br>
 
 
 **主要特点**
@@ -135,14 +135,14 @@ SSD使用感受野小的feature map检测小目标，使用感受野大的featur
 
 ##### 网络结构 
 
-<div align="center"> <img src="yolov31.png" width="70%"/> </div><br>
+<div align="center"> <img src="../pics/yolov31.png" width="70%"/> </div><br>
 
 <center class="half">
-     <img src="yolov32.png" width="60%"/><img src="yolov33.png" width="30%"/>
+     <img src="../pics/yolov32.png" width="60%"/><img src="../pics/yolov33.png" width="30%"/>
 </center>
 
 <center class="half">
-     <img src="yolov34.png" width="40%"/><img src="yolov35.png" width="50%"/>
+     <img src="../pics/yolov34.png" width="40%"/><img src="../pics/yolov35.png" width="50%"/>
 </center>
 
 
@@ -176,10 +176,10 @@ yolo v3对bbox进行预测的时候，采用了logistic regression。yolo v3每�
 
 ##### 网络结构 
 
-<div align="center"> <img src="gyolo1.png" width="70%"/> </div><br>
+<div align="center"> <img src="../pics/gyolo1.png" width="70%"/> </div><br>
 
 <center class="half">
-     <img src="gyolo2.png" width="50%"/><img src="gyolo3.png" width="30%"/>
+     <img src="../pics/gyolo2.png" width="50%"/><img src="../pics/gyolo3.png" width="30%"/>
 </center>
 
 
@@ -193,13 +193,13 @@ output：在原来Yolov3的基础上，每个anchor多预测四个值，表示x,
 
 ##### 网络结构 
 
-<div align="center"> <img src="yolov41.png" width="80%"/> </div><br>
+<div align="center"> <img src="../pics/yolov41.png" width="80%"/> </div><br>
 
 <center class="half">
-     <img src="yolov42.png" width="40%"/><img src="yolov43.png" width="40%"/>
+     <img src="../pics/yolov42.png" width="40%"/><img src="../pics/yolov43.png" width="40%"/>
 </center>
 
-<div align="center"> <img src="yolov45.png" width="50%"/> </div><br>
+<div align="center"> <img src="../pics/yolov45.png" width="50%"/> </div><br>
 
 
 **Bag of freebies**
@@ -252,13 +252,13 @@ CMBN
 ##### 网络结构 
 
 
-<div align="center"> <img src="retina1.png" width="80%"/> </div><br>
+<div align="center"> <img src="../pics/retina1.png" width="80%"/> </div><br>
 
-<div align="center"> <img src="retina2.png" width="40%"/> </div><br>
+<div align="center"> <img src="../pics/retina2.png" width="40%"/> </div><br>
 
-<div align="center"> <img src="retina3.png" width="70%"/> </div><br>
+<div align="center"> <img src="../pics/retina3.png" width="70%"/> </div><br>
 
-<div align="center"> <img src="retina4.png" width="20%"/> </div><br>
+<div align="center"> <img src="../pics/retina4.png" width="20%"/> </div><br>
 
 
 基础网络使用的是Resnet，在不同尺度的feature map建立金字塔，也就是FPN网络，这样就获得了丰富且多尺度的卷积特征金字塔，并且在FPN的每个level连接一个subnet用于回归和分类预测，这些subnet的参数是共享的，它相当于一个小型的FCN结构
@@ -272,17 +272,17 @@ CMBN
 ##### 网络结构 
 
 
-<div align="center"> <img src="fcos1.png" width="70%"/> </div><br>
+<div align="center"> <img src="../pics/fcos1.png" width="70%"/> </div><br>
 
-<div align="center"> <img src="fcos2.png" width="60%"/> </div><br>
+<div align="center"> <img src="../pics/fcos2.png" width="60%"/> </div><br>
 
-<div align="center"> <img src="fcos3.png" width="70%"/> </div><br>
+<div align="center"> <img src="../pics/fcos3.png" width="70%"/> </div><br>
 
-<div align="center"> <img src="fcos4.png" width="60%"/> </div><br>
+<div align="center"> <img src="../pics/fcos4.png" width="60%"/> </div><br>
 
-<div align="center"> <img src="fcos5.png" width="70%"/> </div><br>
+<div align="center"> <img src="../pics/fcos5.png" width="70%"/> </div><br>
 
-<div align="center"> <img src="fcos6.png" width="60%"/> </div><br>
+<div align="center"> <img src="../pics/fcos6.png" width="60%"/> </div><br>
 
 
 FCOS:
@@ -302,12 +302,12 @@ center-ness，中心度取值为0,1之间，使用交叉熵损失进行训练。
 
 ##### 网络结构 
 
-<div align="center"> <img src="nas1.png" width="60%"/> </div><br>
+<div align="center"> <img src="../pics/nas1.png" width="60%"/> </div><br>
 
-<div align="center"> <img src="nas2.png" width="70%"/> </div><br>
+<div align="center"> <img src="../pics/nas2.png" width="70%"/> </div><br>
 
 <center class="half">
-     <img src="nas4.png" width="50%"/><img src="nas3.png" width="30%"/>
+     <img src="../pics/nas4.png" width="50%"/><img src="../pics/nas3.png" width="30%"/>
 </center>
 
 
@@ -333,23 +333,23 @@ Step6: 遍历以上步骤，直到填满输出金字塔的每一层
 
 ##### 网络结构 
 
-<div align="center"> <img src="fpn1.png" width="50%"/> </div><br>
+<div align="center"> <img src="../pics/fpn1.png" width="50%"/> </div><br>
 
-<div align="center"> <img src="fpn2.png" width="50%"/> </div><br>
+<div align="center"> <img src="../pics/fpn2.png" width="50%"/> </div><br>
 
 **自上而下单向融合:**
 
-<div align="center"> <img src="fpn3.png" width="50%"/> </div><br>
+<div align="center"> <img src="../pics/fpn3.png" width="50%"/> </div><br>
 
 
 **简单双向融合:**
 
-<div align="center"> <img src="fpn4.png" width="40%"/> </div><br>
+<div align="center"> <img src="../pics/fpn4.png" width="40%"/> </div><br>
 
 复杂的双向融合：ASFF、NAS-FPN和BiFPN
 
 <center class="half">
-     <img src="fpn5.png" width="30%"/><img src="fpn6.png" width="30%"/><img src="fpn7.png" width="30%"/>
+     <img src="../pics/fpn5.png" width="30%"/><img src="../pics/fpn6.png" width="30%"/><img src="../pics/fpn7.png" width="30%"/>
 </center>
 
 
@@ -362,7 +362,7 @@ NAS-FPN和BiFPN，都是google出品，思路也一脉相承，都是在FPN中�
 **递归FPN**
 
 <center class="half">
-     <img src="fpn8.png" width="40%"/><img src="fpn9.png" width="60%"/>
+     <img src="../pics/fpn8.png" width="40%"/><img src="../pics/fpn9.png" width="60%"/>
 </center>
 
 DetectoRS，效果之好令人惊讶，使用递归FPN的DetectoRS是目前物体检测（COCO mAP 54.7）、实体分割和全景分割的SOTA，太强悍了。
