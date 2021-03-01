@@ -8,7 +8,7 @@
 
 <div align="center"> <img src="../pics/yolact2.png" width="30%"/> </div><br>
 
-<div align="center"> <img src="../pics/yolact3.png" width="30%"/> </div><br>
+<div align="center"> <img src="../pics/yolact3.png" width="20%"/> </div><br>
 
 原型生成（Prototype Generation）
 
@@ -32,9 +32,9 @@
 
 #### PointRend
 
-<div align="center"> <img src="../pics/pointrend1.png" width="70%"/> </div><br>
+<div align="center"> <img src="../pics/pointrend1.png" width="50%"/> </div><br>
 
-<div align="center"> <img src="../pics/pointrend2.png" width="30%"/> </div><br>
+<div align="center"> <img src="../pics/pointrend2.png" width="20%"/> </div><br>
 
 PointRend 方法要点总结来说是一个迭代上采样的过程：
 
