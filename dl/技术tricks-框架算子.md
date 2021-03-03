@@ -47,6 +47,8 @@ https://github.com/Swall0w/torchstat
 
 [caffe2\onnxruntime部署](https://pytorch.apachecn.org/docs/1.4/86.html)
 
+[pytorch onnx支持算子列表](https://pytorch.org/docs/stable/onnx.html#supported-operators)
+
 ## notes:
 
 ### pytorch:
