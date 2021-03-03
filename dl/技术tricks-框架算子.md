@@ -47,6 +47,8 @@ https://github.com/arogozhnikov/einops
 
 [wang-xinyu/tensorrtx](https://github.com/wang-xinyu/tensorrtx)
 
+https://github.com/dusty-nv/jetson-inference
+
 ### onnx
 
 [pytorch2onnx 转换](https://github.com/open-mmlab/mmsegmentation/blob/feefc6a9dedbef79cd0375b6b507137b4f2b934c/tools/pytorch2onnx.py)
