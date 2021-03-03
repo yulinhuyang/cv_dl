@@ -21,6 +21,7 @@ https://github.com/Swall0w/torchstat
 
 [Pytorch中Tensor与各种图像格式的相互转化](https://cloud.tencent.com/developer/article/1144751)
 
+[当代研究生应当掌握的并行训练方法（单机多卡）](https://zhuanlan.zhihu.com/p/98535650)
 
 ### numpy 
 
