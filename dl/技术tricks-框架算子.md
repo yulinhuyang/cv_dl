@@ -45,6 +45,7 @@ https://github.com/Swall0w/torchstat
 
 [pytorch2onnx 转换](https://github.com/open-mmlab/mmsegmentation/blob/feefc6a9dedbef79cd0375b6b507137b4f2b934c/tools/pytorch2onnx.py)
 
+[caffe2\onnxruntime部署](https://pytorch.apachecn.org/docs/1.4/86.html)
 
 ## notes:
 
