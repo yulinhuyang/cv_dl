@@ -23,6 +23,8 @@ https://github.com/Swall0w/torchstat
 
 [当代研究生应当掌握的并行训练方法（单机多卡）](https://zhuanlan.zhihu.com/p/98535650)
 
+[利用Pytorch实现卷积操作](https://zhuanlan.zhihu.com/p/349683405)
+
 ### numpy 
 
 ["Stanford 231课程：Python Numpy Tutorial教程"](https://xuepro.github.io/2018/05/09/Python-Numpy-Tutorial/)
