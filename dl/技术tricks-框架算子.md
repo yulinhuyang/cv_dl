@@ -25,6 +25,10 @@ https://github.com/Swall0w/torchstat
 
 [利用Pytorch实现卷积操作](https://zhuanlan.zhihu.com/p/349683405)
 
+[einsum满足你一切需要：深度学习中的爱因斯坦求和约定](https://zhuanlan.zhihu.com/p/44954540)
+
+https://ajcr.net/Basic-guide-to-einsum/
+
 ### numpy 
 
 ["Stanford 231课程：Python Numpy Tutorial教程"](https://xuepro.github.io/2018/05/09/Python-Numpy-Tutorial/)
