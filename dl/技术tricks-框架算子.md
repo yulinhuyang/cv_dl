@@ -30,6 +30,13 @@ https://github.com/Swall0w/torchstat
 
 [高性能深度学习支持引擎实战——TensorRT](https://zhuanlan.zhihu.com/p/35657027)
 
+[Syencil/tensorRT](https://github.com/Syencil/tensorRT)
+
+[tiny-tensorrt](https://github.com/zerollzeng/tiny-tensorrt)
+
+[如何使用TensorRT对训练好的PyTorch模型进行加速?](https://zhuanlan.zhihu.com/p/88318324)
+
+[wang-xinyu/tensorrtx](https://github.com/wang-xinyu/tensorrtx)
 
 ## notes:
 
