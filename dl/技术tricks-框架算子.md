@@ -71,3 +71,11 @@ https://github.com/NVIDIA-AI-IOT/torch2trt
 np.where 使用取索引法
 
 np.expand_dims增加维度
+
+### tensorRT
+
+cmake使用: 
+
+build目录: 
+cd build && cmake.. 
+make
