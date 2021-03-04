@@ -49,6 +49,10 @@ https://github.com/arogozhnikov/einops
 
 https://github.com/dusty-nv/jetson-inference
 
+[Ubuntu 18.04 TensorRT 7从Pytorch生成onnx模型开始跑通第一个SampleONNXMNIST示例（C++）](https://blog.csdn.net/catscanner/article/details/107877234)
+
+https://github.com/NVIDIA-AI-IOT/torch2trt
+
 ### onnx
 
 [pytorch2onnx 转换](https://github.com/open-mmlab/mmsegmentation/blob/feefc6a9dedbef79cd0375b6b507137b4f2b934c/tools/pytorch2onnx.py)
