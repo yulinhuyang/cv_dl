@@ -53,6 +53,8 @@ https://github.com/dusty-nv/jetson-inference
 
 https://github.com/NVIDIA-AI-IOT/torch2trt
 
+https://developer.nvidia.com/zh-cn/blog/speeding-up-deep-learning-inference-using-tensorflow-onnx-and-tensorrt/
+
 ### onnx
 
 [pytorch2onnx 转换](https://github.com/open-mmlab/mmsegmentation/blob/feefc6a9dedbef79cd0375b6b507137b4f2b934c/tools/pytorch2onnx.py)
