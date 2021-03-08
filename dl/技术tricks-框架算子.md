@@ -31,6 +31,10 @@ https://ajcr.net/Basic-guide-to-einsum/
 
 https://github.com/arogozhnikov/einops
 
+pytorch  C++ 接口使用： 
+
+https://pytorch.org/cppdocs/frontend.html
+
 ### numpy 
 
 ["Stanford 231课程：Python Numpy Tutorial教程"](https://xuepro.github.io/2018/05/09/Python-Numpy-Tutorial/)
