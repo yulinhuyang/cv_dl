@@ -67,6 +67,12 @@ https://developer.nvidia.com/zh-cn/blog/speeding-up-deep-learning-inference-usin
 
 [pytorch onnx支持算子列表](https://pytorch.org/docs/stable/onnx.html#supported-operators)
 
+
+### numpy
+
+[numpy的文件存储 .npy .npz 文件](https://blog.csdn.net/m0_37041325/article/details/78006203)
+
+
 ## notes:
 
 ### pytorch:
