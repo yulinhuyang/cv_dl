@@ -37,6 +37,8 @@ https://pytorch.org/cppdocs/frontend.html
 
 [pytorch 并行计算](https://www.cnblogs.com/marsggbo/p/11534141.html)
 
+[libtorch 常用api函数示例](https://www.cnblogs.com/yanghailin/p/12901586.html)
+
 ### numpy 
 
 ["Stanford 231课程：Python Numpy Tutorial教程"](https://xuepro.github.io/2018/05/09/Python-Numpy-Tutorial/)
