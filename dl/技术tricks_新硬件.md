@@ -17,6 +17,7 @@
 
 机器人操作系统入门 代码示例---Github ： https://github.com/DroidAITech/ROS-Academy-for-Beginners
 
+ROS探索总结：  https://www.guyuehome.com/227
 
 ROS学习网站：
 
