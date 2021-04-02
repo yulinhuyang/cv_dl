@@ -9,11 +9,13 @@
 
 [机器人操作系统入门](https://www.icourse163.org/course/ISCAS-1002580008?from=searchPage)
 
+[ROS机器人开发实践](https://github.com/huchunxu/ros_exploring)
+
 相关资料：
 
-机器人操作系统入门》课程讲义---Gitbook ： https://sychaichangkun.gitbooks.io/ros-tutorial-icourse163/content/chapter1/1.1.html
+机器人操作系统入门 课程讲义---Gitbook ： https://sychaichangkun.gitbooks.io/ros-tutorial-icourse163/content/chapter1/1.1.html
 
-机器人操作系统入门》代码示例---Github ： https://github.com/DroidAITech/ROS-Academy-for-Beginners
+机器人操作系统入门 代码示例---Github ： https://github.com/DroidAITech/ROS-Academy-for-Beginners
 
 
 ROS学习网站：
