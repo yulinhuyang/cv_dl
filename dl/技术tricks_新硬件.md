@@ -619,7 +619,8 @@ OpenCV中的人脸识别算法首先将获取的图像进行灰度化转换，�
 匹配过程中可以根据cascade分类器中的不同类型分别进行匹配例如正脸和侧脸。
 
 
-# 创建cv_bridge
+创建cv_bridge:
+
     self.bridge = CvBridge()
 	
     self.image_pub = rospy.Publisher("cv_bridge_image", Image, queue_size=1)
