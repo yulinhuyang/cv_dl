@@ -362,3 +362,137 @@ ROS的元功能包common_msgs中提供了许多不同消息类型的功能包，
 
 分布式多机通信：ROS中只允许存在一个Master，在多机系统中Master只能运行在一台机器上其他机器需要通过ssh的方式和Master取得联系
 
+### 第4章　ROS中的常用组件
+
+**launch启动文件**
+launch启动文件通过XML文件实现多节点的配置和启动。
+
+	<launch>
+		<node pkg="turtlesim" name="sim1" type="turtlesim_node"/>
+		<node pkg="turtlesim" name="sim2" type="turtlesim_node"/> 
+	</launch> 
+
+	标签元素有两个<param>和<arg>，一个代表parameter，另一个代表argument
+	
+	<param name="output_frame" value="odom"/>
+	
+	<arg name="arg-name" default= "arg-value"/>
+ 
+	重映射机制：  <remap from="/turtlebot/cmd_vel" to="/cmd_vel"/>
+	
+	嵌套复用： <include file="$(dirname)/other.launch" />
+	
+	
+**TF坐标变换**
+
+TF坐标变换管理机器人系统中繁杂的坐标系变换关系。
+
+监听TF变换： 接收并缓存系统中发布的所有坐标变换数据并从中查询所需要的坐标变换关系。
+
+广播TF变换：向系统中广播坐标系之间的坐标变换关系。系统中可能会存在多个不同部分的TF变换广播，每个广播都可以直接将坐标变换关系插入TF树中不需要再进行同步。
+
+tf_monitor： 打印TF树中所有坐标系的发布状态， 
+	
+	tf_monitor <source_frame> <target_target>
+
+tf_echo：查看指定坐标系之间的变换关系
+	
+	tf_echo <source_frame> <target_frame>
+	
+static_transform_publisher：发布两个坐标系之间的静态坐标变换，这两个坐标系不发生相对位置变化	
+	
+	$ static_transform_publisher x y z yaw pitch roll frame_id child_frame_id  period_in_ms
+	$ static_transform_publisher x y z qx qy qz qw frame_id child_frame_id   period_in_ms
+
+view_frames:生成pdf文件显示整棵TF树的信息
+
+	rosrun tf view_frames
+	
+创建TF广播器:
+
+	std::string turtle_name;
+
+	void poseCallback(const turtlesim::PoseConstPtr& msg)
+	{
+		// tf广播器
+		static tf::TransformBroadcaster br;
+
+		// 根据乌龟当前的位姿，设置相对于世界坐标系的坐标变换
+		tf::Transform transform;
+		transform.setOrigin( tf::Vector3(msg->x, msg->y, 0.0) );
+		tf::Quaternion q;
+		q.setRPY(0, 0, msg->theta);
+		transform.setRotation(q);
+
+		// 发布坐标变换
+		br.sendTransform(tf::StampedTransform(transform, ros::Time::now(), "world", turtle_name));
+	}
+
+创建TF监听器：
+
+	tf::StampedTransform transform;
+	try
+	{
+		// 查找turtle2与turtle1的坐标变换
+		listener.waitForTransform("/turtle2", "/turtle1", ros::Time(0), ros::Duration(3.0));
+		listener.lookupTransform("/turtle2", "/turtle1", ros::Time(0), transform);
+	}
+	catch (tf::TransformException &ex) 
+	{
+		ROS_ERROR("%s",ex.what());
+		ros::Duration(1.0).sleep();
+		continue;
+	}
+
+	// 根据turtle1和turtle2之间的坐标变换，计算turtle2需要运动的线速度和角速度
+	// 并发布速度控制指令，使turtle2向turtle1移动
+	geometry_msgs::Twist vel_msg;
+	vel_msg.angular.z = 4.0 * atan2(transform.getOrigin().y(),
+									transform.getOrigin().x());
+	vel_msg.linear.x = 0.5 * sqrt(pow(transform.getOrigin().x(), 2) +
+								  pow(transform.getOrigin().y(), 2));
+	turtle_vel.publish(vel_msg);
+	
+
+接口： waitForTransform、lookupTransform
+
+
+**Qt工具箱**
+Qt工具箱提供多种机器人开发的可视化工具如日志输出、计算图可视化、数据绘图、参数动态配置等功能。
+
+相关命令：
+
+rqt_console工具用来图像化显示和过滤ROS系统运行状态中的所有日志消息
+
+rqt_graph 图形化显示当前ROS系统中的计算图
+
+rqt_plot 二维数值曲线绘制工具
+
+rqt_reconfigure 动态配置ROS系统中的参数
+
+**rviz三维**
+
+rviz三维可视化平台实现机器人开发过程中多种数据的可视化显示并且可通过插件机制无限扩展。
+
+
+**gazebo仿真**
+
+gazebo仿真环境创建仿真环境并实现带有物理属性的机器人仿真。
+
+Building Editor工具可以手动绘制地图
+
+**rosbag数据记录**
+
+rosbag数据记录与回放记录并回放ROS系统中运行时的所有话题信息方便后期调试使用。
+
+	抓取消息
+	
+	$ mkdir ~/bagfiles
+	$ cd ~/bagfiles 
+	$ rosbag record  -a
+	
+	回放消息
+	
+	rosbag info <your bagfile>
+	
+	rosbag play <your bagfile>
