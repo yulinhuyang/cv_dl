@@ -145,5 +145,220 @@ ROS mater: 有一个控制器使得所有节点有条不紊地执行这就是ROS
 话题是ROS中基于发布/订阅模型的异步通信模式，这种方式将信息的产生和使用双方解耦，常用于不断更新的、含有较少逻辑处理的数据通信。
 而服务多用于处理ROS中的同步通信，采用客户端/服务器模型，常用于数据量较小但有强逻辑处理的数据交换。
 
+### 第3章　ROS基础
 
+**第一个ROS例程——小乌龟仿真**
+
+turtlesim
+
+话题订阅、发布 
+
+服务
+
+参数
+
+
+**创建工作空间和功能包**
+
+src代码空间： Source Space开发过程中最常用的文件夹用来存储所有ROS功能包的源码文件。
+
+build编译空间： Build Space用来存储工作空间编译过程中产生的缓存信息和中间文件。
+
+devel开发空间： Development Space用来放置编译生成的可执行文件。
+
+install安装空间： Install Space编译成功后可以使用make install命令将可执行文件安装到该空间
+
+创建工作空间: 
+
+	$ mkdir -p ~/catkin_ws/src
+	$ cd ~/catkin_ws/src 
+	$ catkin_init_workspace
+
+	$ cd ~/catkin_ws/
+	$ catkin_make 
+	
+	echo"source/WORKSPACE/devel/setup.bash">>~/.bashrc
+ 
+直接创建功能包的命令catkin_create_pkg
+
+	$ catkin_create_pkg <package_name> [depend1] [depend2] [depend3]
+	
+然后回到工作空间的根目录下进行编译并且设置环境变量
+
+	$ cd ~/catkin_ws
+	$ catkin_make 
+	$ source 
+
+	~/catkin_ws/devel/setup.bash
+
+
+RoboWare简介
+
+**话题中的Publisher与Subscriber**
+
+Publisher的主要作用是针对指定话题发布特定数据类型的消息
+
+	#include <sstream>
+	#include "ros/ros.h"
+	#include "std_msgs/String.h"
+	ros::init(argc,  argv, "talker");
+	// 创建节点句柄
+	ros::NodeHandle n;
+	// 创建一个Publisher发布名为chatter的topic消息类型为std_msgs::String
+	ros::Publisher chatter_pub = n.advertise<std_msgs::String>("chatter", 1000);
+    
+	// 发布消息
+	ROS_INFO("%s", msg.data.c_str());
+	chatter_pub.publish(msg); 
+	// 循环等待回调函数
+	ros::spinOnce(); 
+ 
+创建Subscriber
+
+	#include "ros/ros.h"
+	#include "std_msgs/String.h"
+
+	// 接收到订阅的消息后会进入消息回调函数
+	void chatterCallback(const std_msgs::String::ConstPtr& msg)
+	{ 
+		// 将接收到的消息打印出来
+		ROS_INFO("I heard: [%s]", msg->data.c_str());
+	} 
+
+	int main(int argc, char **argv)
+	{ 
+		// 初始化ROS节点
+		ros::init(argc,  argv, "listener");
+
+		// 创建节点句柄
+		ros::NodeHandle n;
+
+		// 创建一个Subscriber订阅名为chatter的话题注册回调函数chatterCallback
+		ros::Subscriber sub = n.subscribe("chatter", 1000, chatterCallback);
+		
+		// 循环等待回调函数
+		ros::spin(); 
+		return 0; 
+	} 
+ 
+编译功能包配置项：
+
+include_directories 设置头文件的相对路径
+
+add_executable  设置需要编译的代码和生成的可执行文件
+
+target_link_libraries   设置链接库
+
+add_dependencies   设置依赖
+
+自定义msg
+
+ROS的元功能包common_msgs中提供了许多不同消息类型的功能包，如std_msgs标准数据类型、geometry_msgs几何学数据类型、sensor_msgs传感器数据类型等
+
+**服务中的Server和Client**
+
+自定义服务数据：/srv/AddTwoInts.srv
+
+	int64 a
+	int64 b 
+	--- 
+	 
+	int64 sum
+
+并在package.xml 和cmake 里面配置依赖
+
+创建Server；
+
+	#include "ros/ros.h"
+	#include "learning_communication/AddTwoInts.h"
+
+	// service回调函数输入参数req输出参数res
+	bool add(learning_communication::AddTwoInts::Request  &req,
+			 learning_communication::AddTwoInts::Response &res) 
+	{ 
+	 // 将输入参数中的请求数据相加结果放到应答变量中
+	 res.sum = req.a + req.b; 
+	 ROS_INFO("request: x=%ld, y=%ld", (long int)req.a, (long int)req.b);
+	 ROS_INFO("sending back response: [%ld]", (long int)res.sum); 
+	 return true; 
+	} 
+	 
+	int main(int argc, char **argv)
+	{ 
+		// ROS节点初始化
+		ros::init(argc,  argv, "add_two_ints_server");
+		
+		// 创建节点句柄
+		ros::NodeHandle n;
+
+		// 创建一个名为add_two_ints的server注册回调函数add()
+		ros::ServiceServer service = n.advertiseService("add_two_ints", add);
+
+		// 循环等待回调函数
+		ROS_INFO("Ready  to add two ints.");
+		ros::spin(); 
+		return 0; 
+	} 
+ 
+创建Client：
+
+	#include <cstdlib>
+	#include "ros/ros.h"
+	#include "learning_communication/AddTwoInts.h"
+	int main(int argc, char **argv) 
+	{ 
+		// ROS节点初始化
+		ros::init(argc,  argv, "add_two_ints_client");
+
+		// 从终端命令行获取两个加数
+		if (argc != 3) 
+		{ 
+			ROS_INFO("usage: add_two_ints_client X Y");
+			return 1; 
+		} 
+	 
+		// 创建节点句柄
+		ros::NodeHandle n;
+
+		// 创建一个client请求add_two_int service
+
+		// service消息类型是learning_communication::AddTwoInts
+		ros::ServiceClient client = n.serviceClient<learning_communication::AddTwoInts> ("add_two_ints");
+
+		// 创建learning_communication::AddTwoInts类型的service消息
+		learning_communication::AddTwoInts srv; 
+		srv.request.a = atoll(argv[1]); 
+		srv.request.b = atoll(argv[2]); 
+		 
+		// 发布service请求等待加法运算的应答结果
+		if (client.call(srv)) 
+		{ 
+			 ROS_INFO("Sum: %ld", (long int)srv.response.sum);
+		} 
+		else
+		{ 
+			ROS_ERROR("Failed to call service add_two_ints");
+			return 1; 
+		} 
+
+		return 0;
+	} 
+
+**ROS中的命名空间**
+
+	ROS中的节点、参数、话题和服务统称为计算图源。
+	
+	基础base名称例如base。
+
+	全局global名称例如/global/name。
+
+	相对relative名称例如relative/name，默认。
+
+	私有private名称例如~private/name。
+	
+	ROS的命名解析是在命名重映射之前发生的。
+	
+	name:=new_name
+
+分布式多机通信：ROS中只允许存在一个Master，在多机系统中Master只能运行在一台机器上其他机器需要通过ssh的方式和Master取得联系
 
