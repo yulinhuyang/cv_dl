@@ -496,3 +496,151 @@ rosbag数据记录与回放记录并回放ROS系统中运行时的所有话题�
 	rosbag info <your bagfile>
 	
 	rosbag play <your bagfile>
+
+
+
+### 第5章　机器人平台搭建
+
+组成部分：执行机构、驱动系统、传感系统和控制系统
+
+MRobot是ROSClub基于ROS系统构建的一款差分轮式移动机器人
+
+usb_cam：针对V4L协议USB摄像头的ROS驱动包核心节点
+
+
+基于Raspberry Pi的控制系统实现
+
+为机器人装配摄像头
+
+为机器人装配Kinect
+
+为机器人装配激光雷达
+
+激光雷达可用于测量机器人和其他物体之间的距离
+
+### 第6章　机器人建模与仿真
+
+**统一机器人描述格式——URDF**
+
+<link>标签：描述机器人某个刚体部分的外观和物理属性包括尺寸size、颜色color、形状shape、惯性矩阵inertial matrix、碰撞参数collision properties等
+
+	<link name="<link name>">
+	<inertial> . . . . . .</inertial>
+		<visual> . . . . . . </visual> 
+	    <collision> . . . . . . </collision>
+	</link> 
+
+	<visual>标签用于描述机器人link部分的外观参数，<inertial>标签用于描述link的惯性参数，而<collision>标签用于描述link的碰撞属性	
+
+<joint>标签：描述机器人关节的运动学和动力学属性，包括关节运动的位置和速度限制
+	
+	连接两个刚体link这两个link分别称为parent link和child link
+	
+<robot>：完整机器人模型的最顶层标签，<link>和<joint>标签都必须包含在<robot>标签内。
+	
+	<robot name="<name of the robot>">
+		<link> ....... </link> 
+		<link> ....... </link> 
+		<joint> ....... </joint>
+		<joint> ....... </joint> 
+	</robot> 
+ 
+<gazebo>：描述机器人模型在Gazebo中仿真所需要的参数
+	
+	<gazebo reference="link_1">
+		<material>Gazebo/Black</material>
+	</gazebo> 
+ 
+	
+**创建机器人URDF模型**
+
+catkin_create_pkg mrobot_description urdf xacro
+
+check_urdf：对mrobot_chassis.urdf文件进行检查
+
+urdf_to_graphiz： 查看URDF模型的整体结构
+
+**改进URDF模型**
+
+在base_link中加入<inertial>和<collision>标签描述机器人的物理惯性属性和碰撞属性
+
+惯性参数的设置主要包含质量和惯性矩阵
+
+使用xacro优化URDF：xacro是一个精简版本的URDF文件。xacro是URDF的升级版模型文件的后缀名由.urdf变为.xacro。
+
+直接在启动文件中调用xacro解析器，自动将xacro转换成URDF文件。
+
+**添加传感器模型**
+
+顶层xacro文件把机器人和摄像头这两个模块拼装：
+
+<?xml version="1.0"?>
+<robot name="mrobot"  xmlns:xacro="http://www.ros.org/wiki/xacro">
+ <xacro:include filename="$(find mrobot_description)/urdf/mrobot_body.urdf.xacro" />
+ <xacro:include filename="$(find mrobot_description)/urdf/camera.xacro"/>
+
+
+基于ArbotiX和rviz的仿真器
+
+**ros_control**
+
+https://www.guyuehome.com/890
+
+ros_control就是ROS为用户提供的应用与机器人之间的中间件，包含一系列控制器接口、传动装置接口、硬件接口、控制器工具箱等等。
+
+硬件抽象层负责机器人硬件资源的管理，而controller从抽象层请求资源即可，并不直接接触硬件.
+
+Controller Manager、Controller、Hardware Rescource、RobotHW、Real Robot
+
+Gazebo仿真
+
+
+
+### 第7章　机器视觉
+
+ROS中的图像数据：二维图像数据、三维点云数据
+
+**摄像头标定**
+
+使用camera_calibration功能包试下双目和单目摄像头的标定,标定kinect的RGB和红外摄像头
+
+**OpenCV库**
+
+ROS中已经集成了opencv库和相关的接口包ros-kinetic ， cv_bridge 提供了opencv和ROS图像数据转换的接口
+
+一个ROS节点订阅摄像头驱动发布的图像消息，然后转换未Opencv的图像格式进行显示，然后再转换未ROS 图像消息
+
+imgmsg_to_cv2()：将ROS图像消息转换成OpenCV图像数据，该接口有两个输入参数第一个参数指向图像消息流，第二个参数用来定义转换的图像数据格式。
+
+cv2_to_imgmsg()：将OpenCV格式的图像数据转换成ROS图像消息，该接口同样要求输入图像数据流和数据格式这两个参数。
+
+OpenCV中的人脸识别算法首先将获取的图像进行灰度化转换，并进行边缘处理与噪声过滤然后将图像缩小、直方图均衡化，同时将匹配分类器放大相同倍数，直到匹配分类器的大小大于检测图像，则返回匹配结果。
+
+匹配过程中可以根据cascade分类器中的不同类型分别进行匹配例如正脸和侧脸。
+
+
+# 创建cv_bridge
+    self.bridge = CvBridge()
+	
+    self.image_pub = rospy.Publisher("cv_bridge_image", Image, queue_size=1)
+	
+	self.image_sub = rospy.Subscriber("input_rgb_image", Image,self.image_callback, queue_size=1)
+	
+
+物体跟踪
+
+首先根据输入的图像流和选择跟踪的物体采样物体在图像当前帧中的特征点，然后将当前帧和下一帧图像进行灰度值比较，估计出当前帧中跟踪物体的特征点在下一帧图像中的位置。
+再过滤位置不变的特征点，余下的点就是跟踪物体在第二帧图像中的特征点其特征点集群即为跟踪物体的位置。
+
+二维码识别
+
+ar_track_alvar允许创建多种二维码标签
+
+sudo apt-get install ros-kinetic-ar-track-alvar
+
+Object Recognition KitchenORK其中包含了多种三维物体识别的方法
+
+ORK中的大部分算法思路都是模板匹配也就是说首先建立已知物体的数据模型然后根据采集到的场景信息逐一进行匹配找到与数据库中匹配的物体即可确定识别到的物体
+
+couchdb工具
+
