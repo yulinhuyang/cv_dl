@@ -88,6 +88,15 @@ np.where 使用取索引法
 
 np.expand_dims增加维度
 
+tile函数功能：对整个数组进行复制拼接
+
+    用法：numpy.tile(a, reps)
+
+    其中a为数组，reps为重复的次数
+
+    >>> np.tile(a,2)  
+
+
 ### tensorRT
 
 cmake使用: 
