@@ -74,7 +74,12 @@ roscpp定时器允许用户安排一个回调发生周期性。
 
 [ROS-TF的使用（常用功能）](https://blog.csdn.net/liuzubing/article/details/81014240)
 
+四元组转欧拉角：
 
+    tf::Quaternion tf_quat;
+    tf::quaternionMsgToTF(amcl_pose.pose.pose.orientation,tf_quat);
+    double roll,pitch,yaw;
+    tf::Matrix3x3(tf_quat).getRPY(roll,pitch,yaw);
 
 
 
