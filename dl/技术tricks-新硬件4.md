@@ -53,7 +53,9 @@ void setParam (const std::string &key, int i) const;
 
 [odom&imu融合用于Cartographer建图](https://blog.csdn.net/zhzwang/article/details/112169035)
 
-odom: 里程计，里程计是记录机器人与起始位置相对pose的模块，同时它还提供了机器人实时的线速度、角速度以及这些状态量的不确定性。
+odom: 里程计，也就是轮速计，里程计是记录机器人与起始位置相对pose的模块，同时它还提供了机器人实时的线速度、角速度以及这些状态量的不确定性。
+
+imu: 视觉惯性单元
 
 cartographer中使用三种数据源去做位姿预估：odom、imu、匹配的pose。
 
