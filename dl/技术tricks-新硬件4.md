@@ -85,6 +85,6 @@ roscpp定时器允许用户安排一个回调发生周期性。
 
 [c++之多线程中“锁”的基本用法](https://zhuanlan.zhihu.com/p/91062516)
 
-
+[c++11 多线程（3）atomic 总结](https://www.jianshu.com/p/8c1bb012d5f8)
 
 
