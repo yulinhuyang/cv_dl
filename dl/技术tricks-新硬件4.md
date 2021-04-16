@@ -81,7 +81,9 @@ roscpp定时器允许用户安排一个回调发生周期性。
     double roll,pitch,yaw;
     tf::Matrix3x3(tf_quat).getRPY(roll,pitch,yaw);
 
+** 7 多线程**
 
+[c++之多线程中“锁”的基本用法](https://zhuanlan.zhihu.com/p/91062516)
 
 
 
