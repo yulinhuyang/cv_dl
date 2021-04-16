@@ -87,4 +87,4 @@ roscpp定时器允许用户安排一个回调发生周期性。
 
 [c++11 多线程（3）atomic 总结](https://www.jianshu.com/p/8c1bb012d5f8)
 
-
+atomic_load： 在原子对象中原子性地获取存储的值(函数模板)
