@@ -97,18 +97,20 @@ std::condition_variable 类是同步原语，能用于阻塞一个线程，或�
 
 有意修改变量的线程必须:
 
-获得 std::mutex （常通过 std::lock_guard ）
-
-在保有锁时进行修改
-
-在 std::condition_variable 上执行 notify_one 或 notify_all （不需要为通知保有锁）
+    获得 std::mutex （常通过 std::lock_guard ）
+    在保有锁时进行修改
+    在 std::condition_variable 上执行 notify_one 或 notify_all （不需要为通知保有锁）
 
 即使共享变量是原子的，也必须在互斥下修改它，以正确地发布修改到等待的线程。
 
-任何有意在 std::condition_variable 上等待的线程必须
+任何有意在 std::condition_variable 上等待的线程必须：
 
-在与用于保护共享变量者相同的互斥上获得 std::unique_lock<std::mutex>执行下列之一：
+    在与用于保护共享变量者相同的互斥上获得 std::unique_lock<std::mutex>
 
-检查条件，是否为已更新或提醒它的情况；执行 wait 、 wait_for 或 wait_until ，等待操作自动释放互斥，并悬挂线程的执行；condition_variable 被通知时，时限消失或虚假唤醒发生，线程被唤醒，且自动重获得互斥。之后线程应检查条件，若唤醒是虚假的，则继续等待。
+    执行下列之一：
+
+        检查条件，是否为已更新或提醒它的情况
+        执行 wait 、 wait_for 或 wait_until ，等待操作自动释放互斥，并悬挂线程的执行
+        condition_variable 被通知时，时限消失或虚假唤醒发生，线程被唤醒，且自动重获得互斥。之后线程应检查条件，若唤醒是虚假的，则继续等待。
 
 
