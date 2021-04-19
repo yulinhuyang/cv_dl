@@ -11,3 +11,5 @@
 
 
 卡尔曼滤波融合原理： https://zhuanlan.zhihu.com/p/59622824
+
+Moore–Penrose逆矩阵：https://zhuanlan.zhihu.com/p/56142687
