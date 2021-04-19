@@ -1,3 +1,5 @@
+## 1  资料汇总
+
 https://blog.csdn.net/orange_littlegirl/article/details/90453585
 
 
@@ -6,3 +8,11 @@ https://blog.csdn.net/orange_littlegirl/article/details/90453585
 研一下学期开始接触机器学习，师兄说需要打算法基础，好开始学吧！学习numpy,scipy和matplotlib,以及一个图像处理的库pillow,最后学习opencv-python。（这里要感谢ApacheCN组织提供了很多资源）期间接触了大佬吴恩达的深度学习课程，系统学习了CNN图像处理网络，期间恶补了《数字图像处理》基础的图像处理知识，我的方向差不多定了图像感知算法，期间参与了课题组几个项目都是用深度学习的方案解决的，锻炼了我的工程能力。最后开始从事师兄的语义分割网络学习，学习路线先学习tensorflow，再从基础的网络开始学习VGG16-19,FCN,UNET,ERFNET,最后接触Deeplab系列，最后还参加了Bosch的hackson获得了第二的成绩（感谢师兄和裕哥的帮助）
 
 研二上学期开始完整的自动驾驶项目，阅读AUTOWARE(日本名古屋大学自动驾驶开源代码)和Apollo2.0的代码，之后就接触了视觉slam，高博出了一本好书《视觉slam14讲》，在开源组织泡泡机器人的帮助下入门视觉同时定位与建图，这一领域和高精度地图密不可分，我发现了之前学的C++和ros都在里面可以用到，然后开始拼命学习开源算法，ORBSALM,SVO,DSO等，然后接触VIO算法，期间又强化了C++的能力，学习了很多数学算法需要用到的C++库：Eigen;Ceres;G20;GTSAM等等。期间了解了激光slam的算法（发现激光比视觉简单好多），最后找的工作也和这个有关。
+
+
+## 2 开源项目
+
+https://github.com/Autoware-AI/autoware.ai
+
+https://github.com/ApolloAuto/apollo
+
