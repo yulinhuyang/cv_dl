@@ -13,3 +13,5 @@
 卡尔曼滤波融合原理： https://zhuanlan.zhihu.com/p/59622824
 
 Moore–Penrose逆矩阵：https://zhuanlan.zhihu.com/p/56142687
+
+微鉴道长SLAM学习笔记（目录）：https://blog.csdn.net/zkk9527/article/details/102952863
