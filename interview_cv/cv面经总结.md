@@ -6,6 +6,8 @@ https://github.com/DarLiner/Algorithm_Interview_Notes-Chinese/tree/master
 
 https://github.com/amusi/Deep-Learning-Interview-Book
 
+百面机器学习、深度学习
+
 
 ### 2 代码模板
 
