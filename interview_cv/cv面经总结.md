@@ -34,6 +34,8 @@ https://zhuanlan.zhihu.com/p/217494137
 
 需要准备的： https://www.cnblogs.com/ziytong/p/12839714.html  
 
+https://github.com/amusi/AI-Job-Notes
+
 
 
 
