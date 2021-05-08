@@ -6,6 +6,17 @@ https://github.com/DarLiner/Algorithm_Interview_Notes-Chinese/tree/master
 
 https://github.com/amusi/Deep-Learning-Interview-Book
 
+
+### 2 代码模板
+
+https://github.com/JDAI-CV/fast-reid
+
+https://github.com/deepinsight/insightface
+
+https://github.com/open-mmlab/mmdetection
+
+### 3 试题整理
+
 **机器学习试题**
 
 https://zhuanlan.zhihu.com/p/213774840
@@ -19,14 +30,11 @@ https://zhuanlan.zhihu.com/p/217494137
 
 计算机视觉面试31题：CV面试考点，精准详尽解析  https://zhuanlan.zhihu.com/p/257883797
 
+2020算法工程师面经汇总： https://zhuanlan.zhihu.com/p/114262625
 
 需要准备的： https://www.cnblogs.com/ziytong/p/12839714.html  
 
-### 2 代码模板
 
-
-
-### 3 试题整理
 
 
 
