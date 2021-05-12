@@ -19,6 +19,12 @@ https://github.com/open-mmlab/mmdetection
 
 ### 3 试题整理
 
+**双百面**
+
+百面机器学习知识点： https://www.jianshu.com/c/90223df0f45c
+
+
+
 **机器学习试题**
 
 https://zhuanlan.zhihu.com/p/213774840
