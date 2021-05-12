@@ -21,6 +21,11 @@ https://github.com/open-mmlab/mmdetection
 
 ### 3 试题整理
 
+主要参考：
+
+https://github.com/lcylmhlcy/Awesome-algorithm-interview/blob/master/README.md
+
+
 其他补充：机器学习、深度学习部分基础知识
 
 https://github.com/DarLiner/Algorithm_Interview_Notes-Chinese/tree/master   
