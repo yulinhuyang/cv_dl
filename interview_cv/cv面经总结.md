@@ -1,12 +1,14 @@
 ### 1   必看总结
 
-机器学习、深度学习部分基础知识
+西瓜书笔记+ 花书笔记
 
-https://github.com/DarLiner/Algorithm_Interview_Notes-Chinese/tree/master   
+https://zhuanlan.zhihu.com/p/38431213
 
-https://github.com/amusi/Deep-Learning-Interview-Book
+百面机器学习、深度学习笔记
 
-百面机器学习、深度学习
+**双百面**
+
+百面机器学习知识点： https://www.jianshu.com/c/90223df0f45c
 
 
 ### 2 代码模板
@@ -19,10 +21,11 @@ https://github.com/open-mmlab/mmdetection
 
 ### 3 试题整理
 
-**双百面**
+其他补充：机器学习、深度学习部分基础知识
 
-百面机器学习知识点： https://www.jianshu.com/c/90223df0f45c
+https://github.com/DarLiner/Algorithm_Interview_Notes-Chinese/tree/master   
 
+https://github.com/amusi/Deep-Learning-Interview-Book
 
 
 **机器学习试题**
