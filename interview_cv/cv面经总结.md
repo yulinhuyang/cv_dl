@@ -46,7 +46,10 @@ https://zhuanlan.zhihu.com/p/217494137
 
 [面试笔试整理3：深度学习机器学习面试问题准备](https://blog.csdn.net/woaidapaopao/article/details/77806273)
 
-[一天一个知识点系列](https://blog.csdn.net/qq_22613769/article/details/106723679)
+https://github.com/HarleysZhang/2020_algorithm_intern_information
+
+
+
 
 深度学习面试79题  https://zhuanlan.zhihu.com/p/231171098     https://zhuanlan.zhihu.com/p/245126142
 
