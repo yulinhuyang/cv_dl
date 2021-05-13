@@ -42,9 +42,13 @@ https://zhuanlan.zhihu.com/p/217494137
 
 **深度学习试题**
 
-深度学习面试79题  https://zhuanlan.zhihu.com/p/231171098     https://zhuanlan.zhihu.com/p/245126142
-
 计算机视觉面试31题：CV面试考点，精准详尽解析  https://zhuanlan.zhihu.com/p/257883797
+
+[面试笔试整理3：深度学习机器学习面试问题准备](https://blog.csdn.net/woaidapaopao/article/details/77806273)
+
+[一天一个知识点系列](https://blog.csdn.net/qq_22613769/article/details/106723679)
+
+深度学习面试79题  https://zhuanlan.zhihu.com/p/231171098     https://zhuanlan.zhihu.com/p/245126142
 
 2020算法工程师面经汇总： https://zhuanlan.zhihu.com/p/114262625
 
