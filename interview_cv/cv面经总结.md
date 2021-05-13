@@ -48,7 +48,7 @@ https://zhuanlan.zhihu.com/p/217494137
 
 https://github.com/HarleysZhang/2020_algorithm_intern_information
 
-
+https://github.com/GYee/CV_interviews_Q-A
 
 
 深度学习面试79题  https://zhuanlan.zhihu.com/p/231171098     https://zhuanlan.zhihu.com/p/245126142
