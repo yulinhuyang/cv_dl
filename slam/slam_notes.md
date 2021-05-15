@@ -13,6 +13,8 @@ ROS-Academy-for-Beginners： https://github.com/sychaichangkun/ROS-Academy-for-B
 
 [slam 十四讲](https://www.bilibili.com/video/av883698132/)
 
+[slam十四讲笔记](https://www.zhihu.com/column/c_159467704)
+
 [从小白到自动驾驶算法工程师的转型](https://blog.csdn.net/orange_littlegirl/article/details/90453585)
 
 https://github.com/Autoware-AI/autoware.ai
