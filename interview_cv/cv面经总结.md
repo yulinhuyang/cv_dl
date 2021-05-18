@@ -69,3 +69,9 @@ https://www.6aiq.com/article/1587335310316
 
 
 
+### 4  notes
+
+STAR法则: 在什么背景(Situation)下,为了解决什么问题(Target),采取了什么方法(Action),最后达到了什么效果(Result).
+
+
+
