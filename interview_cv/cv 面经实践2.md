@@ -19,12 +19,36 @@ average-pooling 更强调对整体特征信息进行一层下采样，在减少�
 
 average-pooling 在全局平均池化操作中应用也比较广，在 ResNet 和 Inception 结构中最后一层都使用了平均池化。有的时候在模型接近分类器的末端使用全局平均池化还可以代替 Flatten 操作，使输入数据变成一位向量。
 
+**16 卷积层相较于全连接层的优势**
+
+卷积层相较于全连接层需要训练的参数更少，所以神经网络的设计离不开卷积层
+
+卷积层通过参数共享和稀疏连接两种方式来保证单层卷积中的训练参数少
+
 **17 网络中常用的损失函数汇总：**
 
 https://zhuanlan.zhihu.com/p/58883095
+
+**18 有哪些修改、调试模型的经验分享**
+
+**19 目标检测评价指标mAP的计算**
+
+见 2020_algorithm_intern_information
 
 **20  实例分割中的评价指标：**
 
 https://blog.csdn.net/weixin_40546602/article/details/105292391 
 
 **25  batch size 和 learning rate 的关系：** 
+
+**26 类别不均衡问题怎么解决**
+
+https://zhuanlan.zhihu.com/p/56882616
+
+**28 权重初始化方法有哪些**
+
+https://zhuanlan.zhihu.com/p/72374385
+
+
+
+
