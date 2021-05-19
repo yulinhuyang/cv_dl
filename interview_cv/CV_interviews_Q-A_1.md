@@ -11,6 +11,8 @@
 
 [卷积的三种模式full, same, valid以及padding的same, valid](https://zhuanlan.zhihu.com/p/62760780)
 
+f -->s -->v
+
 full模式的意思是，从filter和image刚相交开始做卷积。
 
 same的意思是，当filter的中心(K)与image的边角重合时，开始做卷积运算。
