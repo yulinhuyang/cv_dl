@@ -20,6 +20,15 @@ same的意思是，当filter的中心(K)与image的边角重合时，开始做�
 valid的意思，当filter全部在image里面的时候，进行卷积运算。
 
 
+**5 python ::-1**
+
+[::-1] 顺序相反操作
+
+[-1] 读取倒数第一个元素
+
+[3::-1] 从下标为3（从0开始）的元素开始翻转读取
+
+
 **13  为什么max pooling 要更常用？什么场景下 average pooling 比 max pooling 更合适**
 
 讲一下 pooling 的作用， 为什么 max pooling 要更常用？哪些情况下，average pooling 比 max pooling 更合适？
