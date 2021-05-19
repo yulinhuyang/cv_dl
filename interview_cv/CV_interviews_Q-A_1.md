@@ -7,6 +7,17 @@
 
 ####  3  CV_interviews 补充
 
+**3 代码实现卷积**
+
+[卷积的三种模式full, same, valid以及padding的same, valid](https://zhuanlan.zhihu.com/p/62760780)
+
+full模式的意思是，从filter和image刚相交开始做卷积。
+
+same的意思是，当filter的中心(K)与image的边角重合时，开始做卷积运算。
+
+valid的意思，当filter全部在image里面的时候，进行卷积运算。
+
+
 **13  为什么max pooling 要更常用？什么场景下 average pooling 比 max pooling 更合适**
 
 讲一下 pooling 的作用， 为什么 max pooling 要更常用？哪些情况下，average pooling 比 max pooling 更合适？
