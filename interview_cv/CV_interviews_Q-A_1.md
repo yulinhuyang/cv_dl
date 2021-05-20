@@ -61,6 +61,18 @@ https://zhuanlan.zhihu.com/p/58883095
 
 https://blog.csdn.net/weixin_40546602/article/details/105292391 
 
+**21 手动推导反向传播公式BP**
+
+鸡： 计算图
+
+鸡： 激活函数
+
+踢： 梯度下降
+
+连： 链式求导
+
+长：张量
+
 **25  batch size 和 learning rate 的关系：** 
 
 **26 类别不均衡问题怎么解决**
