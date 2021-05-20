@@ -95,7 +95,7 @@ https://www.zhihu.com/question/64134994/answer/216895968
 
 https://zhuanlan.zhihu.com/p/56882616
 
-
+https://blog.csdn.net/vivian_ll/article/details/105201120
 
 **28 权重初始化方法有哪些**
 
