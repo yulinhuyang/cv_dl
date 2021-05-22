@@ -113,6 +113,11 @@ He初始化：
 
 https://zhuanlan.zhihu.com/p/72374385
 
+**29  计算机视觉中的注意力机制**
+
+https://zhuanlan.zhihu.com/p/146130215
+
+
 
 
 
