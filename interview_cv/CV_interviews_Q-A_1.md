@@ -144,9 +144,9 @@ Label encoding
 **31  分类问题有哪些评价指标？每种的适用场景**
 
 
+**32  L1 正则化与 L2 正则化的区别**
 
-
-
+https://cloud.tencent.com/developer/article/1456966
 
 
 
