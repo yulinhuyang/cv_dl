@@ -99,6 +99,10 @@ https://blog.csdn.net/vivian_ll/article/details/105201120
 
 **28 权重初始化方法有哪些**
 
+深度学习中神经网络的几种权重初始化方法
+
+https://blog.csdn.net/u012328159/article/details/80025785
+
 https://zhuanlan.zhihu.com/p/72374385
 
 
