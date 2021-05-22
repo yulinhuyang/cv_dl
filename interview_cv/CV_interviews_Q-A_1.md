@@ -117,6 +117,10 @@ https://zhuanlan.zhihu.com/p/72374385
 
 https://zhuanlan.zhihu.com/p/146130215
 
+**30  onehot 编码可能会遇到的问题**
+
+
+
 
 
 
