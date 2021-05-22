@@ -101,11 +101,19 @@ https://blog.csdn.net/vivian_ll/article/details/105201120
 
 深度学习中神经网络的几种权重初始化方法
 
-Xavier  kaiming初始化
+Xavier初始化：
 
-https://blog.csdn.net/u012328159/article/details/80025785
+Xavier initialization是 Glorot 等人为了解决随机初始化的问题提出来的另一种初始化方法，他们的思想倒也简单，就是尽可能的让输入和输出服从相同的分布，这样就能够避免后面层的激活函数的输出值趋向于0。
+
+虽然Xavier initialization能够很好的 tanH 激活函数，但是对于目前神经网络中最常用的ReLU激活函数，还是无能能力。
+
+He初始化：
+
+提出了一种针对ReLU的初始化方法，一般称作 He initialization。
 
 https://zhuanlan.zhihu.com/p/72374385
+
+https://blog.csdn.net/u012328159/article/details/80025785
 
 
 
