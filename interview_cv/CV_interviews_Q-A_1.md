@@ -113,8 +113,6 @@ He初始化：
 
 https://zhuanlan.zhihu.com/p/72374385
 
-https://blog.csdn.net/u012328159/article/details/80025785
-
 
 
 
