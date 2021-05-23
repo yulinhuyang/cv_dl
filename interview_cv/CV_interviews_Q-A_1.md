@@ -195,6 +195,12 @@ ROI Pooling和ROIAlign最⼤的区别是：前者使⽤了两次量化操作，�
 
 featuremap等分--- > 落点区域邻近4点插值--- > 求max。
 
+**42 介绍下FPN网络**
+
+利用不同stage的特征图，形成特征金字塔网络（feature parymid network），表征不同scale的物体，然后再基于特征金字塔做物体检测，也就是进入了FPN时代。
+
+
+
 
 
 
