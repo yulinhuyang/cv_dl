@@ -185,6 +185,8 @@ F --> add, U --> concat
 
 FCN： ⽹络结构是：下采样（卷积＋池化，使⽤的是VGG）——反卷积（反卷积之前还有⼀个跳跃 链接以利⽤不同层的信息的操作）
 
+⼀种是 ResNet 和 FPN 等当中采⽤的 element-wise add ，另⼀种 是 DenseNet 等中采⽤的 concat
+
 **40 ROI pooling和ROI align的区别**
 
 ROI Pooling 的作用是根据预选框的位置坐标在特征图中将相应区域池化为固定尺寸的特征图，以便进行后续的分类和包围框回归操作
