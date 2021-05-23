@@ -228,10 +228,15 @@ Temperature： 因为使用了指数函数，如果在使用softmax之前的预�
 
 所以为了解决这个问题就引入了一个新的参数T,称之为Temperature
 
-** 
+**46 LSTM**
 
 LSTM是在RNN的基础上改进而来的，解决的是长序列数据训练过程中的梯度消失和梯度爆炸问题
 
 LSTM结构相对于普通的RNN多了一个传输状态 (cell state)
+
+**49 maskrcnn**
+
+整个Mask R-CNN算法的思路很简单，就是在原始Faster-rcnn算法的基础上⾯增加了FCN来产⽣对应的MASK分⽀。即Faster-rcnn + FCN，更细致的是 RPN + ROIAlign + Fast-rcnn + FCN。
+
 
 
