@@ -247,4 +247,15 @@ LSTM结构相对于普通的RNN多了一个传输状态 (cell state)
 最后将其输入简单的检测网络中，然后利用1x1的卷积进行分类（区分不同的类别，N+1类，多余的一类是背景，用于删除不准确的ROI），同时进行BB回归（精确的调整预测的ROI和GT的ROI之间的偏差
 值），从而输出一个BB集.
 
-Lmask loss: 这与利用FCN进行语义分割的有所不同，它通常使一个per-pixel sigmoid和一个multinomial cross-entropy loss ，在这种情况下mask之间存在竞争关系；而由于我们使用了一个per-pixel sigmoid 和一个binary loss ，不同mask之间不存在竞争关系
+Lmask loss: 这与利用FCN进行语义分割的有所不同，它通常使一个per-pixel sigmoid和一个multinomial cross-entropy loss ，在这种情况下mask之间存在竞争关系；而由于我们使用了一个per-pixel sigmoid 和一个binary loss ，不同mask之间不存在竞争关系。
+
+RPN的分类损失是二分类的交叉熵损失，fast rcnn 是多分类的交叉熵损失。
+
+RPN损失：分类+回归。   fast rcnn损失：分类+回归。
+
+**43  one stage目标检测网络 YOLO 和 SSD 网络结构及优缺点**
+
+[深入理解one-stage目标检测方法](https://zhuanlan.zhihu.com/p/61485202)
+
+
+
