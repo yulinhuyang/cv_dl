@@ -1,4 +1,7 @@
 
+李宏毅笔记： https://github.com/Sakura-gh/ML-notes
+
+
 **01 LR和SVM的比较**
 
 理解svm 和hinge loss 
