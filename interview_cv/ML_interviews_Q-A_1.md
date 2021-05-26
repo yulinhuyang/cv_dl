@@ -15,3 +15,7 @@ KKT条件。(1)是对拉格朗日函数取极值时候带来的一个必要条�
 https://zhuanlan.zhihu.com/p/28660098
 
 https://zhuanlan.zhihu.com/p/29212107
+
+**9  Adaboost, GBDT 与 XGBoost 的区别**
+
+https://zhuanlan.zhihu.com/p/42740654
