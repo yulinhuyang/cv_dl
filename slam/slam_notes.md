@@ -23,6 +23,14 @@ https://github.com/ApolloAuto/apollo
 
 https://github.com/raulmur/ORB_SLAM2
 
+**simlink 生成C代码**
+
+https://ww2.mathworks.cn/help/simulink/gs/create-a-simple-model.html
+
+Simulink代码生成： Embedded Coder配置
+
+https://blog.csdn.net/u013288925/article/details/104851546  
+
 ### 2  notes
 
 感知： yolov4  ， 引入 3D物体检测、 分割
