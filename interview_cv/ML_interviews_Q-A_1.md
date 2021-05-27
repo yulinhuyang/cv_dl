@@ -37,6 +37,8 @@ AdaBoost + 决策树 = 提升树
 
 gradient + 决策树 = GDBT
 
+boosting:  Improving Weak Classifiers 
+
 **12  Adaboost, GBDT 与 XGBoost 的区别**
 
 https://zhuanlan.zhihu.com/p/42740654
