@@ -60,7 +60,7 @@ https://blog.csdn.net/ncepu_Chen/article/details/105322585
 
 欧式变换：同一个向量，从坐标系A到坐标系B中，长度，夹角都不变，这个坐标系从A到B的过程交欧式变换。
 
-**特殊正交群(special orthogonal group)：* 
+**特殊正交群(special orthogonal group)** 
 
 一类元素行列式为1的重要的典型群。
 
@@ -71,9 +71,11 @@ SO(n)={R∈Rn×n∣RRT=I,det(R)=1}
 
 **特殊欧式群SE（special Euclidean group）**
 
-变换矩阵T      
+用四个数表达三维向量的做法，称为齐次坐标。
 
-T构成特殊欧式群SE
+引入齐次坐标后，旋转和平移放在同一个矩阵，称为变换矩阵。
+
+变换矩阵T , T构成特殊欧式群SE
 
 
 
