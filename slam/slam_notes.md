@@ -31,6 +31,10 @@ Simulink代码生成： Embedded Coder配置
 
 https://blog.csdn.net/u013288925/article/details/104851546  
 
+**slam优质资料 **
+
+https://github.com/GeekLiB/Lee-SLAM-source
+
 ### 2  notes
 
 感知： yolov4  ， 引入 3D物体检测、 分割
