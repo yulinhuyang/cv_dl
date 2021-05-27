@@ -42,3 +42,8 @@ boosting:  Improving Weak Classifiers
 **12  Adaboost, GBDT 与 XGBoost 的区别**
 
 https://zhuanlan.zhihu.com/p/42740654
+
+https://blog.csdn.net/Heitao5200/article/details/85300913
+
+
+
