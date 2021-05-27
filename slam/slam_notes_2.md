@@ -60,6 +60,24 @@ https://blog.csdn.net/ncepu_Chen/article/details/105322585
 
 欧式变换：同一个向量，从坐标系A到坐标系B中，长度，夹角都不变，这个坐标系从A到B的过程交欧式变换。
 
-特殊正交群(special orthogonal group)： 一类元素行列式为1的重要的典型群。
+**特殊正交群(special orthogonal group)：* 
+
+一类元素行列式为1的重要的典型群。
+
+旋转矩阵刻画了旋转前后同一个向量的坐标变换关系。
+
+SO(n)={R∈Rn×n∣RRT=I,det(R)=1}
 
 
+**特殊欧式群SE（special Euclidean group）**
+
+变换矩阵T      
+
+T构成特殊欧式群SE
+
+
+
+
+
+
+ 
