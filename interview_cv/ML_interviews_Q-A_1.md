@@ -19,7 +19,7 @@ https://zhuanlan.zhihu.com/p/28660098
 
 https://zhuanlan.zhihu.com/p/29212107
 
-**10 集成学习 **
+**10 集成学习相关问题**
 
 Bagging和Boosting 的主要区别： 放回、权值、并串行
 
