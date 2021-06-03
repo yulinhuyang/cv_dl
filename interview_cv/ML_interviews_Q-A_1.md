@@ -19,7 +19,9 @@ https://zhuanlan.zhihu.com/p/28660098
 
 https://zhuanlan.zhihu.com/p/29212107
 
-**Bagging和Boosting 的主要区别： 放回、权值、并串行**
+**10 集成学习 **
+
+Bagging和Boosting 的主要区别： 放回、权值、并串行
 
 样本选择上: Bagging采取Bootstraping的是随机有放回的取样，Boosting的每一轮训练的样本是固定的，改变的是买个样的权重。
 
@@ -38,12 +40,6 @@ AdaBoost + 决策树 = 提升树
 gradient + 决策树 = GDBT
 
 boosting:  Improving Weak Classifiers 
-
-**12  Adaboost, GBDT 与 XGBoost 的区别**
-
-https://zhuanlan.zhihu.com/p/42740654
-
-https://blog.csdn.net/Heitao5200/article/details/85300913
 
 
 
