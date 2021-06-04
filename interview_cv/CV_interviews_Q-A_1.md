@@ -258,4 +258,12 @@ RPN损失：分类+回归。   fast rcnn损失：分类+回归。
 [深入理解one-stage目标检测方法](https://zhuanlan.zhihu.com/p/61485202)
 
 
+**50 深度学习模型设计与训练tricks**
+
+[cnn结构设计技巧-兼顾速度精度与工程实现（持续更新）](https://zhuanlan.zhihu.com/p/100609339)
+
+[本科生晋升GM记录 & kaggle比赛进阶技巧分享](https://zhuanlan.zhihu.com/p/93806755)
+
+
+
 
