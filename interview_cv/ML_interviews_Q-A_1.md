@@ -1,6 +1,8 @@
 
 李宏毅笔记： https://github.com/Sakura-gh/ML-notes
 
+李航笔记： https://github.com/SmirkCao/Lihang
+
 
 ### 01 LR和SVM的比较 
 
