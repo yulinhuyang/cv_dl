@@ -257,8 +257,13 @@ RPN损失：分类+回归。   fast rcnn损失：分类+回归。
 
 [深入理解one-stage目标检测方法](https://zhuanlan.zhihu.com/p/61485202)
 
+**50 yolov3 v4  v5对比总结**
 
-**50 深度学习模型设计与训练tricks**
+[深入浅出Yolo系列之Yolov3&Yolov4&Yolov5核心基础知识完整讲解](https://zhuanlan.zhihu.com/p/143747206)
+
+[深入浅出Yolo系列之Yolov5核心基础知识完整讲解](https://zhuanlan.zhihu.com/p/172121380)
+
+**51 深度学习模型设计与训练tricks**
 
 [cnn结构设计技巧-兼顾速度精度与工程实现（持续更新）](https://zhuanlan.zhihu.com/p/100609339)
 
