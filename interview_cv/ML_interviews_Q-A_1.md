@@ -15,9 +15,8 @@ KKT条件。(1)是对拉格朗日函数取极值时候带来的一个必要条�
 
 ### 09  SVM与SMO算法 
 
-https://zhuanlan.zhihu.com/p/28660098
+[【机器学习】支持向量机 SVM（非常详细）](https://zhuanlan.zhihu.com/p/77750026)
 
-https://zhuanlan.zhihu.com/p/29212107
 
 ### 10 集成学习相关问题 
 
@@ -43,6 +42,8 @@ boosting:  Improving Weak Classifiers
 
 
 ### 11 集成学习算法总结 
+
+[【机器学习】决策树（中）——Random Forest、Adaboost、GBDT （非常详细）](https://zhuanlan.zhihu.com/p/86263786)
 
 **AdaBoost**
 
@@ -71,9 +72,9 @@ Gradient Boosting，其思想类似于数值优化中梯度下降求参方法，
 
 ### 12 XGboost总结
 
-xgboost面试题
+[【机器学习】决策树（下）——XGBoost、LightGBM（非常详细）](https://zhuanlan.zhihu.com/p/87885678)
 
-https://blog.csdn.net/weixin_38753230/article/details/100571499
+[xgboost面试题总结](https://blog.csdn.net/weixin_38753230/article/details/100571499)
 
 
 损偏  复杂方
@@ -147,6 +148,11 @@ XGBoost_hist（利用梯度直方图的 XGBoost） 和 LightGBM
 互斥特征捆绑算法、如果将一些特征进行融合绑定，则可以降低特征数量。
 
 
+#### 15 机器学习其他补充  LR  --> SVM  --> xgboost
+
+[【机器学习】逻辑回归（非常详细）](https://zhuanlan.zhihu.com/p/74874291)
+
+[【机器学习】降维——PCA（非常详细）](https://zhuanlan.zhihu.com/p/77151308)
 
 
 
