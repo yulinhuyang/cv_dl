@@ -15,7 +15,7 @@ LBP特征用于检测的原理:
 
 图像切块-->计算每个cell的每个像素的LBP值-->计算cell的直方图-->直方图连接成特征向量
 
-###2  HOG
+### 2  HOG
 
 HOG(Histogram of Oriented Gradient,方向梯度直方图)
 
@@ -25,7 +25,7 @@ HOG通过计算和统计图像局部区域的梯度方向直方图来构建特�
 
 -->每个block进行对比度归一化-->将归一化后所有的block描述子组合，形成整图的descriptor
 
-###3 ORB （Oriented FAST and Rotated BRIEF）
+### 3 ORB （Oriented FAST and Rotated BRIEF）
 
 FAST: 像素点p邻域圆形窗口上的16个像素，检测连续n个像素点都比p是d或b，则认为是p角点。1，9，5和13快速检测法。
 
@@ -35,7 +35,7 @@ ORB = 金字塔（尺度不变性）+ FAST + 灰度质心法（特征点角度�
 
 将这n个点对组成一个矩阵S,构造旋转矩阵，将S旋转到相应方向。
 
-###4 SIFT
+### 4 SIFT
 
 SIFT:尺度不变特征转换(Scale-invariant feature transform)
 
