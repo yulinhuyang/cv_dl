@@ -1,5 +1,3 @@
- 
-https://github.com/LeBron-Jian/ComputerVisionPractice
 
 ### 1  LBP算法原理
 
