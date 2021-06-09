@@ -38,6 +38,8 @@ https://blog.csdn.net/qq_44857648/category_10395112.html
 
 ## 2  视觉编程 
 
+[OpenCV计算机视觉学习](https://github.com/LeBron-Jian/ComputerVisionPractice)
+
 Learning OpenCV 3：
 https://github.com/oreillymedia/Learning-OpenCV-3_examples
 
