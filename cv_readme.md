@@ -72,7 +72,49 @@ https://www.bilibili.com/video/av90898560/
 GAMES101-现代计算机图形学入门-闫令琪_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili
 
 
-## 4  会议论文 
+## 4  slam
+
+**slam十四讲**
+
+[slam 十四讲](https://www.bilibili.com/video/av883698132/)
+
+[微鉴道长SLAM学习笔记(融合十四讲)](https://blog.csdn.net/zkk9527/article/details/102952863)
+
+[slam十四讲笔记](https://www.zhihu.com/column/c_159467704)
+
+https://github.com/raulmur/ORB_SLAM2
+
+
+**机器人操作系统入门**
+
+https://www.icourse163.org/course/ISCAS-1002580008?from=searchPage
+
+讲义： https://sychaichangkun.gitbooks.io/ros-tutorial-icourse163/content/chapter1/1.1.html
+
+代码： https://github.com/DroidAITech/ROS-Academy-for-Beginners
+
+**ROS机器人开发实践**
+
+代码：https://github.com/huchunxu/ros_exploring
+
+古月居：https://www.guyuehome.com
+
+[ROS教程](http://wiki.ros.org/cn/ROS/Tutorials)
+
+**自动驾驶开源**
+
+开源工程：
+
+https://github.com/GeekLiB/Lee-SLAM-source
+
+https://github.com/Autoware-AI/autoware.ai
+
+https://github.com/ApolloAuto/apollo
+
+https://github.com/raulmur/ORB_SLAM2
+
+
+## 5  会议论文 
 
 **ApacheCN 计算机视觉译文集**
 
