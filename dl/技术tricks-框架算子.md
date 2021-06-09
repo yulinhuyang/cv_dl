@@ -1,19 +1,12 @@
-## 开源代码
-
-
-
-
-https://github.com/Swall0w/torchstat
-
 ## tricks
 
-
 ### pytorch
+
+https://github.com/Swall0w/torchstat
 
 [PyTorch Tips(FLOPs计算/参数量/计算图可视化/相关性分析)](https://zhuanlan.zhihu.com/p/112319391)
 
 [PyTorch Cookbook（常用代码段整理合集）](https://zhuanlan.zhihu.com/p/59205847)
-
 
 [pytorch parallel相关](https://pytorch.org/tutorials/beginner/former_torchies/parallelism_tutorial.html)
 
@@ -31,7 +24,8 @@ https://ajcr.net/Basic-guide-to-einsum/
 
 https://github.com/arogozhnikov/einops
 
-pytorch  C++ 接口使用： 
+
+**pytorch C++ 接口使用** 
 
 https://pytorch.org/cppdocs/frontend.html
 
@@ -76,11 +70,16 @@ https://developer.nvidia.com/zh-cn/blog/speeding-up-deep-learning-inference-usin
 
 [numpy的文件存储 .npy .npz 文件](https://blog.csdn.net/m0_37041325/article/details/78006203)
 
+### 模型转换工具合集 
 
-## notes:
+https://github.com/longcw/pytorch2caffe
 
-### pytorch:
+https://github.com/MTlab/onnx2caffe
 
+[模型转换、模型压缩、模型加速工具汇总](https://blog.csdn.net/WZZ18191171661/article/details/99700992)
+
+
+## notes
 
 ### numpy:
 
