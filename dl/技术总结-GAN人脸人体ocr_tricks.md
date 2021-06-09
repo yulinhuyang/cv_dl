@@ -1,5 +1,6 @@
+## tricks 
 
-## 开源代码
+### 1 开源代码库
 
 **insightface**
 
@@ -14,8 +15,7 @@ https://github.com/deepinsight/insightface
 https://github.com/eriklindernoren/PyTorch-GAN
 
 
-## 模型总结
-
+### 2 模型总结
 
 **GAN**
 
@@ -148,8 +148,6 @@ Bert
 [【NLP】Google BERT模型原理详解](https://zhuanlan.zhihu.com/p/46652512)
 
 [FastBERT：又快又稳的推理提速方法](https://zhuanlan.zhihu.com/p/127869267)
-
-GPT
 
 
 **OCR:**
