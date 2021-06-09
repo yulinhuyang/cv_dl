@@ -1,7 +1,7 @@
 
 ## tricks
 
-### 开源代码
+### 1 开源代码
 
 **分类**
 
@@ -73,7 +73,7 @@ Gempooling
 
 
 
-### 比赛 tricks 
+### 2 比赛 tricks 
 
 Slumbers：CNN训练分类任务的优化策略(tricks)： https://zhuanlan.zhihu.com/p/53849733
 
@@ -97,7 +97,7 @@ https://zhuanlan.zhihu.com/p/66393448
 
 
 
-##  经典模型汇总 
+### 3 经典模型汇总 
 
 [经典CNN结构简析：AlexNet、VGG、NIN、GoogLeNet、ResNet etc.](https://zhuanlan.zhihu.com/p/47391705)
 
