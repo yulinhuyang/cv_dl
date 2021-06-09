@@ -1,4 +1,7 @@
-## 开源代码
+
+## tricks
+
+### 开源代码
 
 **分类**
 
@@ -33,6 +36,7 @@ mixup/cutout:
 https://github.com/PistonY/torch-toolbox
 
 model
+
 pretrained-models.pytorch: 
 https://github.com/Cadene/pretrained-models.pytorch
 
@@ -67,9 +71,9 @@ https://github.com/XingangPan/IBN-Net/tree/master/ibnnet
 Gempooling
 
 
-## tricks
 
-**比赛 tricks：**
+
+### 比赛 tricks 
 
 Slumbers：CNN训练分类任务的优化策略(tricks)： https://zhuanlan.zhihu.com/p/53849733
 
@@ -89,15 +93,13 @@ Bag of Tricks for Image Classification with Convolution Neural Networks:
 
 https://zhuanlan.zhihu.com/p/66393448
 
-
 [imgaug学习笔记](https://blog.csdn.net/u012897374/article/details/80142744)
 
 
 
-## 模型汇总 
+##  经典模型汇总 
 
 [经典CNN结构简析：AlexNet、VGG、NIN、GoogLeNet、ResNet etc.](https://zhuanlan.zhihu.com/p/47391705)
-
 
 ResNet：
 
@@ -148,5 +150,3 @@ hrnet:
 
 [打通多个视觉任务的全能Backbone:HRNet](https://zhuanlan.zhihu.com/p/134253318)
 
-
-## notes:
