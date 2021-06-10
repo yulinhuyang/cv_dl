@@ -17,4 +17,4 @@ mmdetection使用
 
 [语义分割中的Attention和低秩重建](https://zhuanlan.zhihu.com/p/77834369)
 
-
+[ROI Align的基本原理及rpn与rcnn head锚框标签制作](https://zhuanlan.zhihu.com/p/73113289)
