@@ -399,6 +399,8 @@ https://zhuanlan.zhihu.com/p/31426458
       
 
 **解析cfg文件**
+
+类型说明
 	
 	[convolutional]
 	batch_normalize=1   是否使用batch_normalize（使用bn,卷积层bias设置false）
@@ -426,8 +428,33 @@ https://zhuanlan.zhihu.com/p/31426458
 	anchors = 10,13,16,30....	  小目标anchor + 中目标anchor + 大目标anchor
 	class= 80               目标类别数
 	
-	
-	isnumeric  判断是否是numeric类型
+训练代码：
+
+isnumeric  判断是否是numeric类型
 	
 
+ predictor的conv没有Bn层,激活函数是linear,其他的都是leaky激活
+	
+ model.py： anchor_vec 将anchors大小缩放到grid尺度（feature map）
+	
+	# 将anchors大小缩放到grid尺度
+        self.anchor_vec = self.anchors / self.stride
+        # batch_size, na, grid_h, grid_w, wh,
+        # 值为1的维度对应的值不是固定值，后续操作可根据broadcast广播机制自动扩充
+        self.anchor_wh = self.anchor_vec.view(1, self.na, 1, 1, 2)
+
+	# build xy offsets 构建每个cell处的anchor的xy偏移量(在feature map上的)
+	 if not self.training:  # 训练模式不需要回归到最终预测boxes,只需要计算损失
+    
+	p = p.view(bs, self.na, self.no, self.ny, self.nx).permute(0, 1, 3, 4, 2).contiguous()  # prediction
+
+  执行transpose、permute之后，内存不再连续，需要再执行contiguous。torch.view等方法操作需要连续的Tensor。
+	
+	io[..., :2] = torch.sigmoid(io[..., :2]) + self.grid  # xy 计算在feature map上的xy坐标
+	io[..., 2:4] = torch.exp(io[..., 2:4]) * self.anchor_wh  # wh yolo method 计算在feature map上的wh
+        io[..., :4] *= self.stride  # 换算映射回原图尺度
+	
+	# yolo_out收集每个yolo_layer层的输出
+        # out收集每个模块的输出
+        yolo_out, out = [], []
  
