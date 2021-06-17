@@ -1,4 +1,4 @@
-### resnet
+### 1 resnet
 
 https://blog.csdn.net/qq_37541097/article/details/104710784
 
@@ -130,7 +130,7 @@ Batch Normalization的目的就是使我们的feature map满足均值为0，方�
 
 
 	
-### mobilenet 
+###  2 mobilenet 
 
 https://blog.csdn.net/qq_37541097/article/details/105771329
 
@@ -140,7 +140,7 @@ https://blog.csdn.net/qq_37541097/article/details/105771329
 
 
 
-### shufflenet
+### 3 shufflenet
 
 	
 
@@ -148,7 +148,7 @@ https://blog.csdn.net/qq_37541097/article/details/105771329
 
 
 
-### pytorch 可视化
+### 4  pytorch 可视化
 
 analyze_feature_map.py
 
@@ -194,9 +194,9 @@ analyze_kernel_weight.py
 		weight_std = weight_t.std(ddof=1)
 		
 
-### sort 算法
+### 5 sort 算法
 
 
 
 
-### PFLD
+### 6  PFLD
