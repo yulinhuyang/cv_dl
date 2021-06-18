@@ -1,5 +1,5 @@
 
-###  sort与deepsort
+### 1 sort与deepsort
 
 [Deep SORT多目标跟踪算法代码解析(上)](https://zhuanlan.zhihu.com/p/133678626)
 
@@ -14,17 +14,16 @@ https://github.com/pprp/deep_sort_yolov3_pytorch
 https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch
 
 
-#### 1 关于yolo + sort 
-
+#### 1.1  关于yolo + sort 
 
 Detections是通过目标检测器得到的目标框，Tracks是一段轨迹。核心是匹配的过程与卡尔曼滤波的预测和更新过程。
 
-目标检测器得到目标框Detections---->
-                                  |
-卡尔曼滤波器预测当前的帧的Tracks---->将Detections和Tracks进行IOU匹配----> 得到Unmatched Tracks(deltede)、Matched Track、Unmatched Detections
-         |     |                                                                                                  |             |
-         |   卡尔曼滤波可以根据Tracks状态预测下一帧的目标框状态。<------------------------------------------------                  |  
-         |________________________________________________________________________________________________________________| new track     
+	目标检测器得到目标框Detections---->
+					  |
+	卡尔曼滤波器预测当前的帧的Tracks---->将Detections和Tracks进行IOU匹配----> 得到Unmatched Tracks(deltede)、Matched Track、Unmatched Detections
+		 |     |                                                                                                |                 |
+		 |   卡尔曼滤波可以根据Tracks状态预测下一帧的目标框状态。<------------------------------------------------                  |  
+		 |________________________________________________________________________________________________________________| new track     
 
 
 匈牙利匹配：二分图遍历，回溯
@@ -33,7 +32,7 @@ Detections是通过目标检测器得到的目标框，Tracks是一段轨迹。�
 
 
 
-#### 2 关于yolo + deepsort
+#### 1.2 关于yolo + deepsort
 
 Deep SORT算法在SORT算法的基础上增加了级联匹配(Matching Cascade)+ 新轨迹的确认(confirmed)。总体流程就是：
 
@@ -45,23 +44,24 @@ Deep SORT算法在SORT算法的基础上增加了级联匹配(Matching Cascade)+
 
 Matching Cascade：计算相似度矩阵的方法使用到了外观模型(ReID)和运动模型(马氏距离)来计算相似度
 
-                                                         ___
-运动模型(马氏距离) lambda d1 ------                      |   gating_threshold
-                                   |---> cost matrix <---
-								   |      |              |__ maxing distance
-cosine Distance: (1-lambda)Xd2 ----       |
-                                          |
-                                          |
-										  |
-										  |
-	---- Detections---					  |
-	|			     |--------->	匈牙利匹配			  
-	|				 |					  |
-	|--confirmed tracked                  |
-    |   (missing age =0 )                 |
-    |                                     |
-    |___________miss age+=1 ---------------
-	            until max_age
+                                                                 ___
+	运动模型(马氏距离) lambda d1 ------                      |   gating_threshold
+					   |---> cost matrix <---
+					   |      |              |__ maxing distance
+	cosine Distance: (1-lambda)Xd2 ----       |
+						  |
+						  |
+						  |
+						  |
+		 ---- Detections---		  |
+		|		  |--------->	匈牙利匹配			  
+		|				  |				 
+	    |--confirmed tracked                  |
+	    |   (missing age =0 )                 |
+	    |                                     |
+	    |___________miss age+=1 ---------------
+			    until max_age
+
  
  级联匹配的数据关联步骤，匹配过程是一个循环(max age个迭代，默认为70)，也就是从missing age=0到missing age=70的轨迹和Detections进行匹配，没有丢失过的轨迹优先匹配，
  
@@ -80,9 +80,9 @@ NearestNeighborDistanceMetric:
 
 
 
-总结：
+#### 1.3 总结：
 
-1.使用级联匹配算法：
+**1.使用级联匹配算法**
 
 针对每一个检测器都会分配一个跟踪器，每个跟踪器会设定一个time_since_update参数。如果跟踪器完成匹配并进行更新，那么参数会重置为0，否则就会+1。
 
@@ -90,24 +90,22 @@ NearestNeighborDistanceMetric:
 
 也就是给上一帧最先匹配的跟踪器高的优先权，给好几帧都没匹配上的跟踪器降低优先权（慢慢放弃）。至于使用级联匹配的目的，我引用一下博客②里的解释：
 
-2.添加马氏距离与余弦距离：全面的差异性衡量
+**2.添加马氏距离与余弦距离：全面的差异性衡量**
 
 马氏距离实际上是针对运动信息与外观信息的计算.针对于位置进行区分。
 
 余弦距离则是一种相似度度量方式,针对于方向。
 
-3.添加深度学习特征：
+**3.添加深度学习特征**
 
 改进中加入了一个深度学习的特征提取网络，所有confirmed的追踪器（其中一个状态）每次完成匹配对应的detection的feature map存储进一个list（存储的数量100帧）。在每次匹配之后都会更新这个feature map的list，比如去除掉一些已经出镜头的目标的特征集，
 
 保留最新的特征将老的特征pop掉等等。这个特征集在进行余弦距离计算的时候将会发挥作用
 
-4.IOU与匈牙利算法匹配：
-
-尽量多
+4.IOU与匈牙利算法匹配：尽量多
 
 
-### PFLD
+### 2 PFLD
 
 主干： MobilenetV2 修改
 
