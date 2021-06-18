@@ -5,7 +5,7 @@ https://github.com/WZMIAOMIAO/deep-learning-for-image-processing
 
 https://space.bilibili.com/18161609
 
-### 目标检测
+### 目标检测相关API
 
 tensorflow官方API 
 
@@ -16,7 +16,7 @@ https://github.com/tensorflow/models/tree/master/research/object_detection
 mask-rcnn 检测+抠出来
 
 
-#### 目标检测基础
+### 0 目标检测基础
 
 **PASCAL VOC数据集**
 
@@ -118,9 +118,9 @@ mask-rcnn 检测+抠出来
 		
 		2  基于之前生成的候选框进行进一步分类以及调整边界框（基于proposals）
 	
-### Faster RCNN 
+### 1 Faster RCNN 
 
-#### 1  R-CNN
+#### 1.1  R-CNN
 
 	Region with CNN feature
 	
@@ -128,7 +128,7 @@ mask-rcnn 检测+抠出来
 	
 	NMS:寻找得分最高的目标-->计算其他目标与该目标的IOU值 --> 删除所有IOU值大于阈值的目标
 	
-#### 2  Fast RCNN
+#### 1.2  Fast RCNN
 
     selective search(一图生成2K个候选框region proposal) —> 整张图上，用网络提取特征，特征不重复计算--> ROI pooling缩放为7X7大小的特征图，然后将特征图展平通过一系列全连接层得到结果。
 	
@@ -149,7 +149,7 @@ mask-rcnn 检测+抠出来
 	
 	loss；分类损失（交叉熵） + [艾佛森括号]*边界框回归损失
 	
-#### 3  Faster RCNN = RPN + Fast R-CNN
+#### 1.3  Faster RCNN = RPN + Fast R-CNN
 
 RPN(region proposal network):生成候选框：
 	
@@ -193,7 +193,7 @@ RPN(region proposal network):生成候选框：
 
 [一文读懂faster-rcnn](https://zhuanlan.zhihu.com/p/31426458)
       
-### 4  FPN结构 feature pyramid networks
+#### 1.4  FPN结构 feature pyramid networks
 
    先top --> down
    
@@ -216,7 +216,7 @@ RPN(region proposal network):生成候选框：
 		
 	RPN得到的一系列proposal,如何映射到不同的特征层上？ ---> 计算分配
 	
-### 5  SSD网络
+### 2  SSD网络
    
    faster rcnn问题：小目标不好，慢
 
@@ -244,30 +244,30 @@ RPN(region proposal network):生成候选框：
 		
 	损失：Lconf类别损失(正样本损失+负样本损失)+ alpha * Lloc定位损失
 	
-#### 6 RetinaNet:
+### 3 RetinaNet:
   
    focal loss for dense object detection 
    
    one-stage首次超过two-stage
 
-	结构：
+结构：
 
-	   没有根据C2生成P2，多了一个P7
-	   
-	   3组scale X 3组ratios = 9 个anchor
-	   
-	权值共享：
+   没有根据C2生成P2，多了一个P7
 
-	   P3-P7 的预测器class subnet KA 和box subnet 4A（而不是4KA）的权值是共享的（多层共享+ box共享）
-	   
-	回归参数：
-	   
-	   FasterRCNN中对于预测特征层上的每一个anchor都会针对每个类别去生成一组边界框回归参数(4A而不是4KA)
-	 
-	损失函数：
+   3组scale X 3组ratios = 9 个anchor
 
-	   正负样本匹配： Iou >=0.5,正样本;IOU < 0.4 负样本;  0.4 <IoU < 0.5丢弃
+权值共享：
 
-	   Lcls： sigmod Focal loss，所有的正负样本
-	   
-	   Lreg : L1 loss，所有正样本的损失
+   P3-P7 的预测器class subnet KA 和box subnet 4A（而不是4KA）的权值是共享的（多层共享+ box共享）
+
+回归参数：
+
+   FasterRCNN中对于预测特征层上的每一个anchor都会针对每个类别去生成一组边界框回归参数(4A而不是4KA)
+
+损失函数：
+
+   正负样本匹配： Iou >=0.5,正样本;IOU < 0.4 负样本;  0.4 <IoU < 0.5丢弃
+
+   Lcls： sigmod Focal loss，所有的正负样本
+
+   Lreg : L1 loss，所有正样本的损失
