@@ -269,7 +269,7 @@ model.py： anchor_vec 将anchors大小缩放到grid尺度（feature map）
 
 **自定义数据集：**
 
-
+```python
 	# 检查每张图片后缀格式是否在支持的列表中，保存支持的图像路径
 	# img_formats = ['.bmp', '.jpg', '.jpeg', '.png', '.tif', '.dng']
 	self.img_files = [x for x in f if os.path.splitext(x)[-1].lower() in img_formats]
@@ -343,7 +343,7 @@ model.py： anchor_vec 将anchors大小缩放到grid尺度（feature map）
 		pbar.desc = "Caching images (%.1fGB)" % (gb / 1E9)
 
 	如果使用多GPU训练并开启cache_images时，每个进程都会缓存一份
-
+```
 
 
 ### 6  yolov4：
@@ -477,7 +477,8 @@ https://github.com/bubbliiiing/yolov4-pytorch
 	三个层计算，每个都类似，loss计算是针对特征层featuremap来讲的
 	
 	乘3是因为有3个先验框
-	
+
+```python	
 		#-------------------------------------------------#
 		#   此时获得的scaled_anchors大小是相对于特征层的
 		#-------------------------------------------------#
@@ -504,7 +505,7 @@ https://github.com/bubbliiiing/yolov4-pytorch
  	get_ignore:获得哪些样本是应该忽略的。
 		
 	预测框和真实框对比，获得CIOU loss，或者先验框内部是否包含物体的loss,物体种类的loss
-  
+ ``` 
   
 
 ###  7  yolov5 解读
