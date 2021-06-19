@@ -5,6 +5,7 @@ https://github.com/DataXujing/YOLO-v5/blob/master/yolov5_trt.py
 
 前处理代码：
 
+```python
     def preprocess_image_0(self, input_image_path):
 
         image_raw = cv2.imread(input_image_path)   # 1.opencv读入图片
@@ -42,6 +43,6 @@ https://github.com/DataXujing/YOLO-v5/blob/master/yolov5_trt.py
         image = np.expand_dims(image, axis=0)    # 10.CWH2NCHW
         # Convert the image to row-major order, also known as "C order":
         image = np.ascontiguousarray(image)  # 11.ascontiguousarray函数将一个内存不连续存储的数组转换为内存连续存储的数组，使得运行速度更快
-
+```
 
 
