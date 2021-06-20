@@ -115,3 +115,53 @@ NearestNeighborDistanceMetric:
 
 辅助网络用以监督 PFLD 网络模型的训练,对每一个输入的人脸样本进行三维欧拉角估计,作为区分数据分布的依据。
 
+### 3 transformer
+
+
+RNN 记忆长度有限，因此有了LSTM
+
+无法并行化
+
+可以记忆长度无限长，可以并行化
+
+
+**self-attention**
+
+		|---->Wv  ---> v
+	a ----->  Wq  ---> q
+		|---->Wk  ----> k
+		
+
+	q: query(to match others)
+
+	k: key (to be matched)
+
+	v: information to be extracted
+
+
+	q与k进行match，scaled Dot-Product Attention:
+
+	q点乘k
+
+	进行点乘后的数值很大，导致通过softmax后的梯度变的很小。
+
+	Attention（Q,K,V）= softmax(Q * Ktrans / d)*V
+
+	Q和K的点乘结果，代表对V的关注程度
+
+
+**multi-head self-attention**
+
+	将q进行均分，K进行均分，v进行均分
+	
+	multihead(Q,K,V) = concat(head1,...,headn)*Wo
+	
+	where headi= Attention(Q*Wqi,K*Wki,V*Wvi)
+	
+	
+	按照head个数进行均分，分为head1 ,head2-->	对于拆分后的每个head,分别为head1、head2，分别进行self-attention的操作 -->拼接每个head得到的结果 ——> Wo对拼接之后的数据进行进一步融合
+	
+	和组卷积比较像
+	
+	
+	poition Encoding 位置编码
