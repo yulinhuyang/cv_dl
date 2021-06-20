@@ -122,13 +122,22 @@ PSENet不仅适应任意角度的文本检测，而且对近距离文本分割�
 	基于广度优先搜索的渐进扩展算法来构建完整的文字块，从每个“kernel”出发，利用广度优先搜索来不断地合并周围的像素，使得“kernel”不断地扩展，最后得到完整的文字块。
 	
 
-Featuremap： PSENet的主干网络是FPN--->分出4个featuremap-->concat一起(需要上采样) ————>预测不同的kernel scale的分割图--->渐进扩展算法扩张S1,逐减扩展开
+主干流程： 
+
+	PSENet的主干网络是FPN--->分出4个featuremap-->concat一起(需要上采样) ————>预测不同的kernel scale S1----Sn ---> 渐进扩展算法扩张S1, 逐减扩展开
 
 	F = C(P2,P3,P4,P5) = P2||Upx2(P3)||Upx4(P4)||Upx8(P5)
 	
+	P5--------              -----Sn
+                 |	       |
+	P4-------- concat----->F ----Sn-1   -----> 操作原图
+	         |             |_____S1
+	P3-------- 
+	
+	
+	N = 7
 	
 	损失函数：λLc +(1−λ)Ls , sdice coefficient，Lc为文本区域分类损失，Ls为收缩文本实例损失。
-	
-	
-	
+
+	Dice loss：采用交叉熵损失会导致由负样本主导，训练难以收敛，因此训练采用dice coefficient,  X并Y/(X+Y)
 
