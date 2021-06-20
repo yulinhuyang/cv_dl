@@ -141,3 +141,34 @@ PSENet不仅适应任意角度的文本检测，而且对近距离文本分割�
 
 	Dice loss：采用交叉熵损失会导致由负样本主导，训练难以收敛，因此训练采用dice coefficient,  X并Y/(X+Y)
 
+
+yolov3 spp   backbone是mobilenet v2
+
+
+**CRNN：**
+
+	CNN ---> RNN ---> CTC
+
+	
+CNN: 降采样，将大小为（32,100,3）--> 转换为（1,25,512）feature map
+
+	  channel:512, h：1  w:26
+	  
+	  切分成26个feature sequence
+	  
+RNN: 将26个 feature sequence 输入到RNN中，T = 26
+		
+	 是一个双向的LSTM
+	 
+	 每个时刻选择概率最大的那个，相同的时刻只取一个，然后去掉空白符
+	 
+CTC:
+	
+	CTC是一种Loss计算方法，用CTC代替Softmax Loss，训练样本无需对齐。CTC特点：
+
+	引入blank字符，解决有些位置没有字符的问题
+	
+	通过递推，快速计算梯度
+	 
+	解码： 束搜索（Beam Search）
+	
