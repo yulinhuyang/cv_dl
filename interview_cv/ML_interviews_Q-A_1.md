@@ -15,6 +15,19 @@ https://www.zhihu.com/question/47746939
 
 KKT条件。(1)是对拉格朗日函数取极值时候带来的一个必要条件，(2)是拉格朗日系数约束（同等式情况），(3)是不等式约束情况，(4)是互补松弛条件
 
+	LR: 分类算法，判别式模型。logistic loss  log(1+e-x) ，考虑所有点
+
+	SVM:分类算法，判别式模型。hinge loss函数  max(0,1-z)，只考虑边界点，非线性问题靠核函数。需要先归一化，自带正则化项 1/2 wxw。
+
+	若feature数远大于样本数量，使用LR算法或者Linear SVM
+
+	若feature数较小，样本数量适中，使用kernel SVM
+
+	若feature数较小，样本数很大，增加更多的feature然后使用LR算法或者Linear SVM
+	
+	boosting调整的两个权重，一个样本权重，一个是loss权重
+
+
 ### 09  SVM与SMO算法 
 
 [【机器学习】支持向量机 SVM（非常详细）](https://zhuanlan.zhihu.com/p/77750026)
