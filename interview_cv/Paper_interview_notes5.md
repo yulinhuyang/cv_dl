@@ -78,7 +78,11 @@ NearestNeighborDistanceMetric:
 
 马氏距离计算物体检测Bbox dj和物体跟踪BBox yi之间的距离
 
+DeepSort中最大的特点是加入外观信息，借用了ReID领域模型来提取特征，减少了ID switch的次数
 
+马氏距离(Mahalanobis Distance)，应对高维线性分布的数据中各维度间非独立同分布的问题。 
+
+Cost Matrix: 外观模型Reid + 运动模型(马氏距离)
 
 #### 1.3 总结：
 
