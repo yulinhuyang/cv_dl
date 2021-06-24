@@ -28,6 +28,10 @@ valid的意思，当filter全部在image里面的时候，进行卷积运算。
 
 [3::-1] 从下标为3（从0开始）的元素开始翻转读取
 
+python ... 
+
+	a[:, :, None]和a[…, None]的输出是一样的，就是因为…代替了前面两个冒号
+
 
 **13  为什么max pooling 要更常用？什么场景下 average pooling 比 max pooling 更合适**
 
@@ -78,6 +82,8 @@ https://blog.csdn.net/weixin_40546602/article/details/105292391
 [深度可分离卷积](https://zhuanlan.zhihu.com/p/92134485)
 
 深度卷积负责滤波，尺寸为(DK,DK,1)，共M个，作用在输入的每个通道上；逐点卷积负责转换通道，尺寸为(1,1,M)，共N个，作用在深度卷积的输出特征映射上。
+
+深度卷积K*K*1 的输出channel是1，分离卷积1*1*K 的kernel是1
 
 **25  batch size 和 learning rate 的关系：** 
 
