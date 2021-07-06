@@ -27,6 +27,9 @@ image_name + box(left, top, right, bottom) + 类别（0,1,2分别为入口线框
 
 特殊数据：夜景、雨天、嵌草砖场景 ---> 加数据
 
+数据增强方法:
+
+
 #### 模型优化
 
 预测slot的head: P4、P5层，输出9个数： x y w h  conf (是否有物体) num_classes（3） occupy
@@ -56,6 +59,8 @@ image_name + box(left, top, right, bottom) + 类别（0,1,2分别为入口线框
 	800*800：1个像素对应2cm，1m = 50 * 2cm
 
 	416*416: 1个像素对应4cm, 1m = 25 * 4cm
+	
+两个的loss计算方法：
 
 #### 部署指标
 	
