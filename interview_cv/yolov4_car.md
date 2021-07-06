@@ -62,6 +62,10 @@ image_name + box(left, top, right, bottom) + 类别（0,1,2分别为入口线框
 	
 两个的loss计算方法：
 
+训练技巧：
+
+尝试无效的：mosaic、attention(se CBAM)
+
 #### 部署指标
 	
 	map： entrance_ap：0.713 ，marker_ap: 0.816
