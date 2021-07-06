@@ -8,7 +8,7 @@ http://www.cvlibs.net/datasets/kitti/
 https://bdd-data.berkeley.edu/
 
 
-#### v1 发布camera 和img
+####1.  v1 发布camera 和img
   
     kitti数据下载链接： 
 
@@ -59,7 +59,7 @@ alpha：物体的观察角度，[-pi,pi]
 ``` 
 
 
-#### V2  小函数拆分，发布imu和车模型等其他传感器
+####2. V2  小函数拆分，发布imu和车模型等其他传感器
 
 https://github.com/seaside2mm/ros-kitti-project/tree/master/src/v2-publish-other-sensor
 
@@ -183,11 +183,10 @@ http://docs.ros.org/melodic/api/sensor_msgs/html/msg/Imu.html
     mesh_marker.color.b = 1.0
     mesh_marker.color.a = 1.0
 
-	
 ```	
 
 
-#### V3  tricking 发布3d box
+#### 3.  V3  tricking 发布3d box
 
 [解决Github加载ipynb文件缓慢/失败](https://blog.csdn.net/weiwei9363/article/details/79438908)
 
