@@ -27,7 +27,7 @@ image_name + box(left, top, right, bottom) + 类别（0,1,2分别为入口线框
 
 特殊数据：夜景、雨天、嵌草砖场景 ---> 加数据
 
-数据增强方法:
+数据增强：常规增强翻转、放缩、色域变换等。
 
 
 #### 模型优化
@@ -60,21 +60,25 @@ image_name + box(left, top, right, bottom) + 类别（0,1,2分别为入口线框
 
 	416*416: 1个像素对应4cm, 1m = 25 * 4cm
 	
-两个的loss计算方法：
 
-训练技巧：
+
+cos sin 原因：方便直接回归和收敛，如果直接回归绝对角度会有0-360度跳转的问题
+
+loss计算： 三个head分支的 YOLOLoss_local + YOLOLoss + YOLOLoss
+
+YOLOLoss： conf loss（BCEloss mask + noobj_mask） + cls loss(BCEloss mask + noobj_mask) + loc loss(CIOU) +  loss_occupy(MSE loss（求和))
+
+YOLOLoss_local： conf loss（BCEloss mask + noobj_mask） + angle loss(MSE loss) + loc loss(CIOU) 
 
 尝试无效的：mosaic、attention(se CBAM)
 
+
 #### 部署指标
-	
+
 	map： entrance_ap：0.713 ，marker_ap: 0.816
-	
+
 	map计算的时候：只会计算角度偏差在一定范围内的，认为是正确的。
 	
-
-
-
 
 
 
